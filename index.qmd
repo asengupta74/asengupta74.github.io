@@ -2,7 +2,7 @@
 title: "Anand Sengupta"
 ---
 
-### Associate Professor of Physics
+## Associate Professor of Physics
 
 Indian Institute of Technology Gandhinagar
 
@@ -10,14 +10,32 @@ I work in gravitational-wave physics, with interests in gravitational-wave
 data analysis, Bayesian parameter estimation, template-bank construction,
 tests of general relativity, and next-generation gravitational-wave detectors.
 
+My research focuses on methods for extracting astrophysical and
+fundamental-physics information from gravitational-wave observations,
+particularly for compact binaries and future detector networks.
+
 ## Research
 
-My research focuses on methods for extracting astrophysical and
-fundamental-physics information from gravitational-wave observations.
+Current themes include:
 
-Current interests include fast Bayesian inference, long-duration signals
-in third-generation detectors, searches for compact binaries, and tests
-of general relativity.
+- **Fast gravitational-wave inference**
+- **Long-duration signals in third-generation detectors**
+- **Template banks and search methods**
+- **Tests of general relativity**
+- **Neutron-star equation-of-state inference**
+
+A more detailed overview is available on the [Research](research.html) page.
+
+## Research Notes
+
+Short writeups on recent work are collected under
+[Research Notes](notes.html).
+
+Recent topics include:
+
+- [Breaking the long-signal barrier in gravitational-wave inference](posts/long-signal-barrier/index.html)
+- [Low-discrepancy sequences for gravitational-wave template banks](posts/low-discrepancy-template-banks/index.html)
+- [Making Bayesian gravitational-wave inference faster](posts/fast-bayesian-inference/index.html)
 
 ## Publications
 
