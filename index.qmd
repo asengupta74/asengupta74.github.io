@@ -8,6 +8,9 @@ page-layout: full
 
 ::: {.home-sidebar}
 
+![](images/profile.jpg){.profile-photo}
+
+
 ### Academic
 
 **Associate Professor**  

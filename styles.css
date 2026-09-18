@@ -282,3 +282,13 @@
   color: #b22222;
   font-style: italic;
 }
+
+/* Final homepage profile-photo styling */
+.home-sidebar img.profile-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px !important;
+  margin: 0 auto 2.2rem auto !important;
+}
