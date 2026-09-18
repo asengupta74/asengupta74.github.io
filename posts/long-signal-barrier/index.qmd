@@ -2,6 +2,7 @@
 title: "Breaking the long-signal barrier in gravitational-wave inference"
 date: 2026-09-18
 description: "Using the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable."
+image: figures/speedup.png
 categories: [parameter estimation, third-generation detectors, gravitational waves]
 ---
 
@@ -15,6 +16,7 @@ the Earth rotates appreciably while the signal is in band.
 
 The detector antenna response therefore changes during the observation.
 Treating it as constant is no longer adequate.
+
 
 The useful observation is that this time dependence is highly structured.
 For a ground-based interferometer in the long-wavelength approximation, the
@@ -41,6 +43,8 @@ In our implementation, this structure is combined with an adaptive
 frequency representation and error-controlled relative binning. The
 resulting likelihood remains accurate while substantially reducing the
 cost of evaluating long binary-neutron-star signals.
+
+![Speed-up of the accelerated likelihood evaluation relative to the native calculation, together with the likelihood error, as a function of the low-frequency cutoff.](figures/speedup.png){width=60% fig-align="center"}
 
 The broader point is that the duration of third-generation signals need not
 be treated only as a computational burden. The Earth's rotation introduces
