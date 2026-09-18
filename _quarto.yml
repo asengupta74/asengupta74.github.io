@@ -11,7 +11,7 @@ website:
       - href: research.qmd
         text: Research
       - href: notes.qmd
-        text: Recent Results
+        text: Research Notes
       - href: students.qmd
         text: Students
       - href: teaching.qmd

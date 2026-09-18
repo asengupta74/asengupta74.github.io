@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Anand Sengupta",
-    "section": "",
-    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors."
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Anand Sengupta",
-    "section": "Research",
-    "text": "Research\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations.\nCurrent interests include fast Bayesian inference, long-duration signals in third-generation detectors, searches for compact binaries, and tests of general relativity."
-  },
-  {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "Anand Sengupta",
-    "section": "Publications",
-    "text": "Publications\nMy complete publication list is available on INSPIRE-HEP."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research is in gravitational-wave physics, with an emphasis on data-analysis methods for compact-binary signals. Much of my current work is motivated by the computational and conceptual challenges posed by next-generation gravitational-wave detectors."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Courses and teaching material will go here."
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Research Notes",
-    "section": "",
-    "text": "Short notes on recent work, ongoing projects, and results that may be useful to explain outside the format of a paper.\n\n\n\n\n\n\n\n\n\nBreaking the long-signal barrier in gravitational-wave inference\n\n\nUsing the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable.\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\n\n\nLow-discrepancy sequences for gravitational-wave template banks\n\n\nReplacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences.\n\n\n\n\n\nSep 12, 2026\n\n\n\n\n\n\n\nMaking Bayesian gravitational-wave inference faster\n\n\nWhy much of the computational cost of compact-binary inference can be removed without changing the statistical problem.\n\n\n\n\n\nSep 5, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "students.html",
     "href": "students.html",
     "title": "Students",
@@ -77,11 +35,32 @@
     "text": "Bayesian parameter estimation for gravitational-wave signals repeatedly evaluates a likelihood over a high-dimensional parameter space. For compact binaries, the expensive part is usually not the statistical formalism itself but the repeated evaluation of waveform-dependent frequency-domain inner products.\nA large fraction of this work is redundant.\nNearby waveforms are strongly correlated, and the quantities entering the likelihood vary much more smoothly across frequency than the raw waveform phase might suggest. Fast inference methods exploit this structure rather than evaluating every likelihood on the full native frequency grid.\nSeveral complementary strategies are possible. Relative binning represents the ratio between nearby waveforms using a much coarser frequency grid. Meshfree methods interpolate quantities entering the likelihood across intrinsic parameter space. Adaptive grids place frequency samples according to the local variation of the waveform rather than at every Fourier frequency.\nThese methods are particularly important for next-generation detectors. Lowering the starting frequency from tens of hertz to a few hertz greatly increases the signal duration and the number of Fourier samples. A method that is inexpensive for a current-detector binary-neutron-star signal can otherwise become prohibitively costly.\nThe aim is therefore not to approximate the posterior after the fact, but to reorganize the likelihood calculation so that the expensive information is computed once and reused efficiently throughout the inference."
   },
   {
+    "objectID": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
+    "href": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
+    "title": "Making Bayesian gravitational-wave inference faster",
+    "section": "Papers from our work on fast inference",
+    "text": "Papers from our work on fast inference\n\nL. Pathak, A. Reza and A. S. Sengupta, Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources.\nThe original meshfree likelihood construction.\nL. Pathak, S. Munishwar, A. Reza and A. S. Sengupta, Prompt sky localization of compact binary sources using a meshfree approximation.\nExtension to coherent network inference and rapid sky localization.\nA. Sharma, A. S. Sengupta and S. Mukherjee, Accelerated parameter estimation of supermassive black hole binaries in LISA using a meshfree approximation.\nExtension of the meshfree approach to LISA.\nA. Sharma, L. Pathak, S. Roy and A. S. Sengupta, Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation.\nExtension to richer compact-binary waveform structure, including higher modes."
+  },
+  {
     "objectID": "posts/long-signal-barrier/index.html",
     "href": "posts/long-signal-barrier/index.html",
     "title": "Breaking the long-signal barrier in gravitational-wave inference",
     "section": "",
     "text": "Paper: Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors\narXiv:2609.05375\nBinary neutron-star signals can remain in third-generation gravitational-wave detectors for hours. This creates a difficulty that is absent, or much less important, for the shorter signals usually analysed with current detectors: the Earth rotates appreciably while the signal is in band.\nThe detector antenna response therefore changes during the observation. Treating it as constant is no longer adequate.\nThe useful observation is that this time dependence is highly structured. For a ground-based interferometer in the long-wavelength approximation, the response can be decomposed into five sidereal harmonics,\n\\[\nF(t)\n=\n\\sum_{n=-2}^{2} F_n e^{i n\\Omega_\\oplus t}.\n\\]\nThis is essentially the Jaranowski-Królak-Schutz decomposition of the rotating detector response. The five terms arise from the fact that the detector tensor is a symmetric trace-free rank-two tensor and therefore transforms in the five-dimensional (l=2) representation of rotations.\nThis decomposition is useful computationally because the slow sidereal modulation can be separated from the rapidly varying intrinsic waveform. The likelihood can then be evaluated using a small number of precomputed frequency-domain objects rather than repeatedly constructing the full time-dependent detector response.\nIn our implementation, this structure is combined with an adaptive frequency representation and error-controlled relative binning. The resulting likelihood remains accurate while substantially reducing the cost of evaluating long binary-neutron-star signals.\nThe broader point is that the duration of third-generation signals need not be treated only as a computational burden. The Earth’s rotation introduces additional structure into the data, and that structure can itself be used to accelerate inference and improve localization."
+  },
+  {
+    "objectID": "posts/long-signal-barrier/index.html#related-papers",
+    "href": "posts/long-signal-barrier/index.html#related-papers",
+    "title": "Breaking the long-signal barrier in gravitational-wave inference",
+    "section": "Related papers",
+    "text": "Related papers\n\nP. Jaranowski, A. Królak and B. F. Schutz, Data analysis of gravitational-wave signals from spinning neutron stars. I. The signal and its detection.\nThe original JKS treatment of the sidereal modulation of the detector response.\nB. Zackay, L. Dai and T. Venumadhav, Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation.\nThe relative-binning construction used to accelerate likelihood evaluation."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research is in gravitational-wave physics, with an emphasis on data-analysis methods for compact-binary signals. Much of my current work is motivated by the computational and conceptual challenges posed by next-generation gravitational-wave detectors."
   },
   {
     "objectID": "research.html#fast-gravitational-wave-inference",
@@ -126,6 +105,20 @@
     "text": "Publications\nA complete list of publications is available on INSPIRE-HEP."
   },
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Courses and teaching material will go here."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Research Notes",
+    "section": "",
+    "text": "Short notes on recent work, ongoing projects, and results that may be useful to explain outside the format of a paper.\n\n\n\n\n\n\n\n\n\nBreaking the long-signal barrier in gravitational-wave inference\n\n\nUsing the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable.\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\n\n\nLow-discrepancy sequences for gravitational-wave template banks\n\n\nReplacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences.\n\n\n\n\n\nSep 12, 2026\n\n\n\n\n\n\n\nMaking Bayesian gravitational-wave inference faster\n\n\nWhy much of the computational cost of compact-binary inference can be removed without changing the statistical problem.\n\n\n\n\n\nSep 5, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/low-discrepancy-template-banks/index.html",
     "href": "posts/low-discrepancy-template-banks/index.html",
     "title": "Low-discrepancy sequences for gravitational-wave template banks",
@@ -133,24 +126,31 @@
     "text": "Paper: T. Kumar and A. S. Sengupta, Stochastic template banks for GW searches using low-discrepancy sequences\narXiv:2607.18633\nTemplate-bank construction is usually formulated as a covering problem: we want a set of waveforms such that every physically relevant signal lies sufficiently close to at least one template.\nA common approach is stochastic placement. Candidate points are drawn randomly from the parameter space and retained only when they are sufficiently far from the templates already accepted.\nRandom sampling is simple, but it is not particularly uniform. It naturally produces both clusters and gaps, and many proposals are wasted in regions that have already been well covered.\nLow-discrepancy sequences provide an alternative. Sequences such as Sobol and Halton are constructed to fill a multidimensional domain more uniformly than independent random points.\nThe idea we explore is therefore straightforward: retain the usual stochastic acceptance criterion, but replace the random proposal sequence by a low-discrepancy sequence.\nThe final number of templates need not change dramatically. The more interesting quantity is the number of candidate points required to reach a given level of coverage. In our tests, low-discrepancy proposals reduce this initial sampling cost, with the improvement depending on dimension and on how the physical parameter space is mapped into the sampling coordinates.\nThis is useful because the proposal stage becomes increasingly expensive as the dimension of the intrinsic parameter space grows. The method is also easy to combine with geometric pruning and parallel template-bank construction."
   },
   {
-    "objectID": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
-    "href": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
-    "title": "Making Bayesian gravitational-wave inference faster",
-    "section": "Papers from our work on fast inference",
-    "text": "Papers from our work on fast inference\n\nL. Pathak, A. Reza and A. S. Sengupta, Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources.\nThe original meshfree likelihood construction.\nL. Pathak, S. Munishwar, A. Reza and A. S. Sengupta, Prompt sky localization of compact binary sources using a meshfree approximation.\nExtension to coherent network inference and rapid sky localization.\nA. Sharma, A. S. Sengupta and S. Mukherjee, Accelerated parameter estimation of supermassive black hole binaries in LISA using a meshfree approximation.\nExtension of the meshfree approach to LISA.\nA. Sharma, L. Pathak, S. Roy and A. S. Sengupta, Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation.\nExtension to richer compact-binary waveform structure, including higher modes."
-  },
-  {
-    "objectID": "posts/long-signal-barrier/index.html#related-papers",
-    "href": "posts/long-signal-barrier/index.html#related-papers",
-    "title": "Breaking the long-signal barrier in gravitational-wave inference",
-    "section": "Related papers",
-    "text": "Related papers\n\nP. Jaranowski, A. Królak and B. F. Schutz, Data analysis of gravitational-wave signals from spinning neutron stars. I. The signal and its detection.\nThe original JKS treatment of the sidereal modulation of the detector response.\nB. Zackay, L. Dai and T. Venumadhav, Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation.\nThe relative-binning construction used to accelerate likelihood evaluation."
-  },
-  {
     "objectID": "posts/low-discrepancy-template-banks/index.html#related-papers",
     "href": "posts/low-discrepancy-template-banks/index.html#related-papers",
     "title": "Low-discrepancy sequences for gravitational-wave template banks",
     "section": "Related papers",
     "text": "Related papers\n\nI. W. Harry, B. Allen and B. S. Sathyaprakash, A stochastic template placement algorithm for gravitational wave data analysis.\nA standard reference for stochastic template placement.\nS. Roy, A. S. Sengupta and N. Thakor, Hybrid geometric-random template placement algorithm for gravitational wave searches from compact binary coalescences.\nOur earlier work combining geometric and stochastic placement."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anand Sengupta",
+    "section": "",
+    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Anand Sengupta",
+    "section": "Research",
+    "text": "Research\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations.\nCurrent interests include fast Bayesian inference, long-duration signals in third-generation detectors, searches for compact binaries, and tests of general relativity."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Anand Sengupta",
+    "section": "Publications",
+    "text": "Publications\nMy complete publication list is available on INSPIRE-HEP."
   }
 ]
