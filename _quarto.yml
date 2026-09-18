@@ -5,6 +5,7 @@ project:
     - CNAME
 
 website:
+  site-url: "https://asengupta.in"
   title: "Anand Sengupta"
 
   navbar:
