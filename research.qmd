@@ -1,0 +1,65 @@
+---
+title: "Research"
+---
+
+My research is in gravitational-wave physics, with an emphasis on
+data-analysis methods for compact-binary signals. Much of my current work
+is motivated by the computational and conceptual challenges posed by
+next-generation gravitational-wave detectors.
+
+## Fast gravitational-wave inference
+
+Bayesian parameter estimation for compact binaries is computationally
+expensive, particularly for long-duration signals and large detector
+networks. I work on methods that reduce the cost of likelihood evaluation
+while retaining the structure of the underlying waveform and detector
+response.
+
+Current work includes fast likelihood evaluation using reduced frequency
+representations, relative binning, meshfree interpolation, and methods
+adapted to the long signals expected in third-generation detectors.
+
+## Long-duration signals and next-generation detectors
+
+Binary neutron-star signals may remain in third-generation detectors for
+hours. Over these timescales the rotation of the Earth changes the detector
+response and cannot be treated as a small correction.
+
+I am interested in exploiting the structure of this time dependence rather
+than treating it as an additional numerical complication. This includes
+sidereal decompositions of the detector response, fast parameter estimation,
+sky localization, and the role of future detector networks including
+LIGO-India, Einstein Telescope, and Cosmic Explorer.
+
+## Searches and template banks
+
+Matched-filter searches for compact binaries require template banks that
+cover high-dimensional waveform parameter spaces efficiently.
+
+My work in this area includes stochastic template placement, geometric
+methods based on the waveform metric, and the use of low-discrepancy
+sequences such as Sobol and Halton sequences to improve the efficiency and
+uniformity of template-bank construction.
+
+## Tests of general relativity
+
+Gravitational-wave observations provide direct tests of the dynamics of
+strong-field gravity.
+
+I work on parameterized tests of general relativity using compact-binary
+signals, including computational methods for allowing deviations from the
+general-relativistic waveform while retaining fast likelihood evaluation.
+
+## Neutron-star physics
+
+Gravitational-wave observations of binary neutron stars also constrain the
+equation of state of dense nuclear matter.
+
+I am interested in hierarchical inference of neutron-star equation-of-state
+parameters from populations of binary neutron-star observations, and in
+understanding how the information accumulates across events.
+
+## Publications
+
+A complete list of publications is available on
+[INSPIRE-HEP](https://inspirehep.net/authors/1040066).

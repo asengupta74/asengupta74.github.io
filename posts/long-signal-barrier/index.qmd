@@ -1,0 +1,60 @@
+---
+title: "Breaking the long-signal barrier in gravitational-wave inference"
+date: 2026-09-18
+description: "Using the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable."
+categories: [parameter estimation, third-generation detectors, gravitational waves]
+---
+
+**Paper:** [Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors](https://arxiv.org/abs/2609.05375)  
+[arXiv:2609.05375](https://arxiv.org/abs/2609.05375)
+
+Binary neutron-star signals can remain in third-generation gravitational-wave
+detectors for hours. This creates a difficulty that is absent, or much less
+important, for the shorter signals usually analysed with current detectors:
+the Earth rotates appreciably while the signal is in band.
+
+The detector antenna response therefore changes during the observation.
+Treating it as constant is no longer adequate.
+
+The useful observation is that this time dependence is highly structured.
+For a ground-based interferometer in the long-wavelength approximation, the
+response can be decomposed into five sidereal harmonics,
+
+$$
+F(t)
+=
+\sum_{n=-2}^{2} F_n e^{i n\Omega_\oplus t}.
+$$
+
+This is essentially the Jaranowski-Królak-Schutz decomposition of the
+rotating detector response. The five terms arise from the fact that the
+detector tensor is a symmetric trace-free rank-two tensor and therefore
+transforms in the five-dimensional \(l=2\) representation of rotations.
+
+This decomposition is useful computationally because the slow sidereal
+modulation can be separated from the rapidly varying intrinsic waveform.
+The likelihood can then be evaluated using a small number of precomputed
+frequency-domain objects rather than repeatedly constructing the full
+time-dependent detector response.
+
+In our implementation, this structure is combined with an adaptive
+frequency representation and error-controlled relative binning. The
+resulting likelihood remains accurate while substantially reducing the
+cost of evaluating long binary-neutron-star signals.
+
+The broader point is that the duration of third-generation signals need not
+be treated only as a computational burden. The Earth's rotation introduces
+additional structure into the data, and that structure can itself be used
+to accelerate inference and improve localization.
+
+## Related papers
+
+- P. Jaranowski, A. Królak and B. F. Schutz,
+  [*Data analysis of gravitational-wave signals from spinning neutron stars.
+  I. The signal and its detection*](https://arxiv.org/abs/gr-qc/9804014).  
+  The original JKS treatment of the sidereal modulation of the detector response.
+
+- B. Zackay, L. Dai and T. Venumadhav,
+  [*Relative Binning and Fast Likelihood Evaluation for Gravitational Wave
+  Parameter Estimation*](https://arxiv.org/abs/1806.08792).  
+  The relative-binning construction used to accelerate likelihood evaluation.

@@ -1,0 +1,53 @@
+---
+title: "Low-discrepancy sequences for gravitational-wave template banks"
+date: 2026-09-12
+description: "Replacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences."
+categories: [searches, template banks, numerical methods]
+---
+
+**Paper:** T. Kumar and A. S. Sengupta,
+[*Stochastic template banks for GW searches using low-discrepancy sequences*](https://arxiv.org/abs/2607.18633)  
+[arXiv:2607.18633](https://arxiv.org/abs/2607.18633)
+
+Template-bank construction is usually formulated as a covering problem:
+we want a set of waveforms such that every physically relevant signal lies
+sufficiently close to at least one template.
+
+A common approach is stochastic placement. Candidate points are drawn
+randomly from the parameter space and retained only when they are sufficiently
+far from the templates already accepted.
+
+Random sampling is simple, but it is not particularly uniform. It naturally
+produces both clusters and gaps, and many proposals are wasted in regions
+that have already been well covered.
+
+Low-discrepancy sequences provide an alternative. Sequences such as Sobol
+and Halton are constructed to fill a multidimensional domain more uniformly
+than independent random points.
+
+The idea we explore is therefore straightforward: retain the usual
+stochastic acceptance criterion, but replace the random proposal sequence
+by a low-discrepancy sequence.
+
+The final number of templates need not change dramatically. The more
+interesting quantity is the number of candidate points required to reach a
+given level of coverage. In our tests, low-discrepancy proposals reduce this
+initial sampling cost, with the improvement depending on dimension and on
+how the physical parameter space is mapped into the sampling coordinates.
+
+This is useful because the proposal stage becomes increasingly expensive as
+the dimension of the intrinsic parameter space grows. The method is also
+easy to combine with geometric pruning and parallel template-bank
+construction.
+
+## Related papers
+
+- I. W. Harry, B. Allen and B. S. Sathyaprakash,
+  [*A stochastic template placement algorithm for gravitational wave data
+  analysis*](https://arxiv.org/abs/0908.2090).  
+  A standard reference for stochastic template placement.
+
+- S. Roy, A. S. Sengupta and N. Thakor,
+  [*Hybrid geometric-random template placement algorithm for gravitational
+  wave searches from compact binary coalescences*](https://arxiv.org/abs/1702.06771).  
+  Our earlier work combining geometric and stochastic placement.

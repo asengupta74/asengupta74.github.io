@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Anand Sengupta"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: notes.qmd
+        text: Recent Results
+      - href: students.qmd
+        text: Students
+      - href: teaching.qmd
+        text: Teaching
+    right:
+      - href: https://inspirehep.net/authors/1040066
+        text: INSPIRE-HEP
+
+format:
+  html:
+    theme: flatly
+    toc: false

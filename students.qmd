@@ -1,0 +1,33 @@
+---
+title: "Students"
+---
+
+## PhD students
+
+### Student Name
+
+**PhD student, IIT Gandhinagar**
+
+Working on ...
+
+---
+
+## Master's students
+
+### Student Name
+
+**MSc / MTech student, IIT Gandhinagar**
+
+Currently working on ...
+
+---
+
+## Former students
+
+### Student Name
+
+**PhD, YEAR**
+
+Thesis: *Title of thesis*
+
+Now at ...

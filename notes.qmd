@@ -1,0 +1,11 @@
+---
+title: "Research Notes"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description]
+---
+
+Short notes on recent work, ongoing projects, and results that may be useful
+to explain outside the format of a paper.

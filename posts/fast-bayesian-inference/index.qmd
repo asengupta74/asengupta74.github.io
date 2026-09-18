@@ -1,0 +1,58 @@
+---
+title: "Making Bayesian gravitational-wave inference faster"
+date: 2026-09-05
+description: "Why much of the computational cost of compact-binary inference can be removed without changing the statistical problem."
+categories: [parameter estimation, Bayesian inference, computational methods]
+---
+
+Bayesian parameter estimation for gravitational-wave signals repeatedly
+evaluates a likelihood over a high-dimensional parameter space. For compact
+binaries, the expensive part is usually not the statistical formalism itself
+but the repeated evaluation of waveform-dependent frequency-domain inner
+products.
+
+A large fraction of this work is redundant.
+
+Nearby waveforms are strongly correlated, and the quantities entering the
+likelihood vary much more smoothly across frequency than the raw waveform
+phase might suggest. Fast inference methods exploit this structure rather
+than evaluating every likelihood on the full native frequency grid.
+
+Several complementary strategies are possible. Relative binning represents
+the ratio between nearby waveforms using a much coarser frequency grid.
+Meshfree methods interpolate quantities entering the likelihood across
+intrinsic parameter space. Adaptive grids place frequency samples according
+to the local variation of the waveform rather than at every Fourier
+frequency.
+
+These methods are particularly important for next-generation detectors.
+Lowering the starting frequency from tens of hertz to a few hertz greatly
+increases the signal duration and the number of Fourier samples. A method
+that is inexpensive for a current-detector binary-neutron-star signal can
+otherwise become prohibitively costly.
+
+The aim is therefore not to approximate the posterior after the fact, but
+to reorganize the likelihood calculation so that the expensive information
+is computed once and reused efficiently throughout the inference.
+
+## Papers from our work on fast inference
+
+- L. Pathak, A. Reza and A. S. Sengupta,
+  [*Fast likelihood evaluation using meshfree approximations for reconstructing
+  compact binary sources*](https://arxiv.org/abs/2210.02706).  
+  The original meshfree likelihood construction.
+
+- L. Pathak, S. Munishwar, A. Reza and A. S. Sengupta,
+  [*Prompt sky localization of compact binary sources using a meshfree
+  approximation*](https://arxiv.org/abs/2309.07012).  
+  Extension to coherent network inference and rapid sky localization.
+
+- A. Sharma, A. S. Sengupta and S. Mukherjee,
+  [*Accelerated parameter estimation of supermassive black hole binaries in
+  LISA using a meshfree approximation*](https://arxiv.org/abs/2409.14288).  
+  Extension of the meshfree approach to LISA.
+
+- A. Sharma, L. Pathak, S. Roy and A. S. Sengupta,
+  [*Rapid parameter estimation with the full symphony of compact binary
+  mergers using meshfree approximation*](https://arxiv.org/abs/2508.04172).  
+  Extension to richer compact-binary waveform structure, including higher modes.
