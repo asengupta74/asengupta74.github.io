@@ -52,9 +52,9 @@ I have been continuously associated with the LIGO Scientific Collaboration
 since 2001, initially as a student member and, since 2010, as a Senior Member.
 My early work in the collaboration included compact-binary searches and
 contributions to the
-[LIGO Algorithm Library (LAL)](https://lscsoft.docs.ligo.org/lalsuite/lal/)
+[LIGO Algorithm Library (LAL)](https://git.ligo.org/lscsoft/lalsuite/-/tree/master/lal)
 and
-[LALApps](https://lscsoft.docs.ligo.org/lalsuite/lalapps/)
+[LALApps](https://git.ligo.org/lscsoft/lalsuite/-/tree/master/lalapps)
 software infrastructure. I was part of what was then the Inspiral Upper
 Limits Group (IUL Group), which subsequently evolved into the Compact Binary
 Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the
