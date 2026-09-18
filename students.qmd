@@ -1,33 +1,293 @@
 ---
 title: "Students"
+page-layout: full
 ---
 
-## PhD students
+:::: {.student-layout}
 
-### Student Name
+::: {.student-sidebar}
 
-**PhD student, IIT Gandhinagar**
+### Students
 
-Working on ...
+#### Current / recently submitted
+
+[Divya Tahelyani](#divya)  
+
+[Vishnuprathap K. P.](#vishnu)
+
+[Nandini Nair](#nandini)
+
+[Aayushi Kotecha](#aayushi)  
+
+[Ravi Kesharwani](#ravi)  
+
+#### Former
+
+[Soumen Roy](#soumen)  
+
+[Amit Reza](#amit)  
+
+[Lalit Pathak](#lalit)  
+
+[Abhishek Sharma](#abhishek)  
+
+:::
+
+::: {.student-content}
+
+## Current and recently submitted PhD students
+
+::: {.student-entry #divya}
+
+### Divya Tahelyani
+
+**PhD thesis submitted, August 2026 · SRF, IIT Gandhinagar**
+
+**Academic background.** MSc, Charotar University of Science and Technology.
+
+Divya joined the PhD programme at IIT Gandhinagar in 2022 and submitted
+her doctoral thesis in August 2026. She is currently continuing at IIT
+Gandhinagar as a Senior Research Fellow.
+
+Her research focuses on gravitational-wave astrophysics, including
+multiband observations, decihertz gravitational-wave astronomy, and the
+use of gravitational waves to probe dark-matter environments.
+
+Recent work includes:
+
+- [IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band](https://arxiv.org/abs/2601.06956)
+- [Probing dark matter halo profiles with multiband observations of gravitational waves](https://arxiv.org/abs/2411.14063)
+
+[LinkedIn](https://in.linkedin.com/in/divya-tahelyani-00641515a)
+
+:::
 
 ---
 
-## Master's students
+::: {.student-entry #vishnu}
 
-### Student Name
+### Vishnuprathap K. P.
 
-**MSc / MTech student, IIT Gandhinagar**
+**PhD student, IIT Gandhinagar, 2025–present**
 
-Currently working on ...
+**Academic background.** B.Tech. in Engineering Physics, NIT Calicut.
+
+Vishnuprathap joined the PhD programme in Physics at IIT Gandhinagar in
+2025. He completed his B.Tech. in Engineering Physics from NIT Calicut.
+
+His doctoral research is in gravitational-wave astronomy.
+
+:::
 
 ---
 
-## Former students
+::: {.student-entry #nandini}
 
-### Student Name
+### Nandini Nair
 
-**PhD, YEAR**
+**PhD student, IIT Gandhinagar, 2026–present**
 
-Thesis: *Title of thesis*
+**Academic background.** MSc in Physics, University of Delhi.
 
-Now at ...
+Nandini joined the PhD programme in August 2026 after completing her MSc
+in Physics from the University of Delhi.
+
+Her doctoral research is in gravitational-wave physics.
+
+:::
+
+---
+
+::: {.student-entry #aayushi}
+
+### Aayushi Kotecha
+
+**PhD student, IIT Gandhinagar, 2026–present**
+
+**Academic background.** MSc in Physics, Savitribai Phule Pune University; recipient of the INSPIRE Scholarship.
+
+Aayushi joined the PhD programme in August 2026. She completed her MSc
+in Physics from Savitribai Phule Pune University and was a recipient of
+the INSPIRE Scholarship.
+
+Her doctoral research is in gravitational-wave physics.
+
+[LinkedIn](https://in.linkedin.com/in/aayushi-kotecha-421ab2204)
+
+:::
+
+---
+
+::: {.student-entry #ravi}
+
+### Ravi Kesharwani
+
+**Continuing Doctoral Programme (CDP) candidate, IUCAA, 2026–present**
+
+**Academic background.** Studied at VIIT Pune, 2011–2015.
+
+Ravi is a Scientific/Technical Officer at IUCAA and works with the
+LIGO-India instrumentation programme. He is also a member of the LIGO
+Scientific Collaboration through IUCAA.
+
+Before joining the LIGO instrumentation effort, Ravi worked on the
+Solar Ultraviolet Imaging Telescope (SUIT) aboard the Aditya-L1 mission,
+with a particular background in electro-optics and scientific
+instrumentation.
+
+He joined the Continuing Doctoral Programme (CDP) at IUCAA in January
+2026. His doctoral work connects his experience in gravitational-wave
+instrumentation with gravitational-wave physics.
+
+[LinkedIn](https://in.linkedin.com/in/ravi-kesharwani-49611bb5)
+
+:::
+
+## Former PhD students
+
+::: {.student-entry #soumen}
+
+### Soumen Roy
+
+**PhD in Physics, IIT Gandhinagar, 2014–2020**
+
+**Academic background.** MSc, University of Calcutta.
+
+Soumen's doctoral research at IIT Gandhinagar focused on gravitational-wave
+searches, template-bank construction, and the physics of compact-binary
+inspirals.
+
+After completing his PhD, he was a Postdoctoral Research Fellow at Nikhef,
+Amsterdam, from December 2020 to August 2024. Since November 2024 he has
+been a Postdoctoral Researcher at UCLouvain, Belgium.
+
+**Post-IITGN research.** His subsequent work has included compact-binary
+environments, tests of gravity with eccentric systems, and environmental
+effects such as line-of-sight acceleration.
+
+Representative work from his time at IIT Gandhinagar:
+
+- [Unveiling the spectrum of inspiralling binary black holes](https://arxiv.org/abs/1910.04565)
+- [Effectual template banks for upcoming compact-binary searches in Advanced LIGO and Virgo data](https://arxiv.org/abs/1711.08743)
+- [Hybrid geometric-random template-placement algorithm for gravitational-wave searches](https://arxiv.org/abs/1702.06771)
+
+Selected later work:
+
+- [Compact binary coalescences in dense gaseous environments can pose as ones in vacuum](https://arxiv.org/abs/2410.16388)
+- [Testing modified gravity with the eccentric neutron star-black hole merger GW200105](https://arxiv.org/abs/2507.21315)
+- [Line-of-sight acceleration in compact binaries with higher harmonics and eccentricity](https://arxiv.org/abs/2606.08838)
+
+[LinkedIn](https://nl.linkedin.com/in/soumen-roy-6b388199)
+
+:::
+
+---
+
+::: {.student-entry #amit}
+
+### Amit Reza
+
+**PhD in Computational Science, IIT Gandhinagar, 2014–2021**
+
+**Academic background.** M.Tech., MANIT Bhopal.
+
+Amit worked on computational methods for gravitational-wave searches,
+including dimensionality reduction and efficient reconstruction of
+matched-filter statistics.
+
+He subsequently held a postdoctoral position at Nikhef and is currently
+a Scientist at the Austrian Academy of Sciences in Graz.
+
+**Post-IITGN research.** Amit has moved primarily into machine learning
+for astrophysics and space science. His recent work includes neural-network
+models for exoplanet atmospheres and climate, machine-learning classification
+of space-debris light curves, and graph neural networks, alongside continued
+connections with gravitational-wave data analysis.
+
+[Current research profile](https://www.oeaw.ac.at/iwf/institut/das-team/exoplaneten-wetter-und-klima/reza-amit)
+
+Representative work:
+
+- [Random projections in gravitational-wave searches from compact binaries II](https://arxiv.org/abs/2101.03226)
+- [Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources](https://arxiv.org/abs/2210.02706)
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=TEpIWBcAAAAJ)
+
+:::
+
+---
+
+::: {.student-entry #lalit}
+
+### Lalit Pathak
+
+**PhD, IIT Gandhinagar, 2018–2024**
+
+**Academic background.** Department of Physics and Astrophysics, University of Delhi.
+
+Lalit's doctoral work developed fast meshfree methods for gravitational-wave
+parameter estimation and source localization. This included fast likelihood
+evaluation, network sky localization, and interpolation of numerical-relativity
+surrogate waveforms.
+
+After IIT Gandhinagar he was at TIFR Mumbai during 2024–2025 and is
+currently at IUCAA, Pune.
+
+**Post-IITGN research.** Lalit has continued work on rapid
+gravitational-wave inference while also moving into compact-binary
+astrophysics. One recent direction concerns environmental effects on observed
+signals, including line-of-sight acceleration from a possible tertiary
+companion and its degeneracy with orbital eccentricity.
+
+See
+[On the Presence of a Tertiary Compact Object in GW190814](https://arxiv.org/abs/2605.21955).
+
+Representative work:
+
+- [Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources](https://arxiv.org/abs/2210.02706)
+- [Prompt sky localization of compact binary sources using a meshfree approximation](https://arxiv.org/abs/2309.07012)
+- [Fast and faithful interpolation of numerical-relativity surrogate waveforms using a meshfree approximation](https://arxiv.org/abs/2403.19162)
+
+[Google Scholar](https://scholar.google.com/citations?user=KhVSSlMAAAAJ&hl=en)
+
+:::
+
+---
+
+::: {.student-entry #abhishek}
+
+### Abhishek Sharma
+
+**PhD, IIT Gandhinagar, 2021–2025**
+
+**Academic background.** Jamia Millia Islamia; university gold medallist.
+
+Abhishek worked on gravitational-wave inference across ground-based,
+space-based, and decihertz detectors. His doctoral work included template
+banks for non-standard compact-binary signals, accelerated parameter
+estimation for LISA sources, and multiband gravitational-wave astronomy.
+
+He is currently a postdoctoral researcher at IUCAA, Pune.
+
+**Post-IITGN research.** Abhishek has continued developing fast
+gravitational-wave inference methods while extending his work toward
+space-based, decihertz, and multiband gravitational-wave astronomy.
+
+Recent examples include
+[Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation](https://arxiv.org/abs/2508.04172)
+and
+[IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band](https://arxiv.org/abs/2601.06956).
+
+Representative work:
+
+- [Template bank to search for exotic gravitational-wave signals from astrophysical compact binaries](https://arxiv.org/abs/2311.03274)
+- [Accelerated parameter estimation of supermassive black-hole binaries in LISA using a meshfree approximation](https://arxiv.org/abs/2409.14288)
+- [IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band](https://arxiv.org/abs/2601.06956)
+
+[LinkedIn](https://in.linkedin.com/in/abhishek-sharma-666a46205)
+
+:::
+
+:::
+
+::::

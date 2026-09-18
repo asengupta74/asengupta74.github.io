@@ -106,6 +106,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -214,6 +215,12 @@ F(t)
 <p>This is essentially the Jaranowski-Królak-Schutz decomposition of the rotating detector response. The five terms arise from the fact that the detector tensor is a symmetric trace-free rank-two tensor and therefore transforms in the five-dimensional (l=2) representation of rotations.</p>
 <p>This decomposition is useful computationally because the slow sidereal modulation can be separated from the rapidly varying intrinsic waveform. The likelihood can then be evaluated using a small number of precomputed frequency-domain objects rather than repeatedly constructing the full time-dependent detector response.</p>
 <p>In our implementation, this structure is combined with an adaptive frequency representation and error-controlled relative binning. The resulting likelihood remains accurate while substantially reducing the cost of evaluating long binary-neutron-star signals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/speedup.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Speed-up of the accelerated likelihood evaluation relative to the native calculation, together with the likelihood error, as a function of the low-frequency cutoff.</figcaption>
+</figure>
+</div>
 <p>The broader point is that the duration of third-generation signals need not be treated only as a computational burden. The Earth’s rotation introduces additional structure into the data, and that structure can itself be used to accelerate inference and improve localization.</p>
 <section id="related-papers" class="level2">
 <h2 class="anchored" data-anchor-id="related-papers">Related papers</h2>

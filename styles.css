@@ -1,0 +1,66 @@
+.student-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.student-sidebar {
+  position: sticky;
+  top: 5.5rem;
+  padding-right: 1.5rem;
+  border-right: 1px solid #dee2e6;
+  font-size: 0.95rem;
+}
+
+.student-sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+
+.student-sidebar h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.student-sidebar a {
+  display: block;
+  margin: 0.35rem 0;
+  text-decoration: none;
+}
+
+.student-sidebar .profile-link {
+  font-size: 0.78rem;
+  color: #6c757d;
+  margin-top: -0.25rem;
+  margin-bottom: 0.55rem;
+}
+
+.student-entry {
+  scroll-margin-top: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.student-entry h3 {
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .student-layout {
+    display: block;
+  }
+
+  .student-sidebar {
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
