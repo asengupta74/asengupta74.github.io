@@ -29,7 +29,7 @@ A more detailed overview is available on the [Research](research.html) page.
 ## Research Notes
 
 Short writeups on recent work are collected under
-[Research Notes](notes.html).
+[Research Notes](posts/indigo-d/index.html).
 
 Recent topics include:
 

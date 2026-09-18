@@ -3,6 +3,7 @@ title: "Low-discrepancy sequences for gravitational-wave template banks"
 date: 2026-09-12
 description: "Replacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences."
 categories: [searches, template banks, numerical methods]
+sidebar: research-notes
 ---
 
 **Paper:** T. Kumar and A. S. Sengupta,

@@ -4,6 +4,7 @@ date: 2026-09-18
 description: "What a space-based L-shaped interferometer operating between LISA and ground-based detectors could add to gravitational-wave astronomy."
 image: figures/skymaps_tf_track.png
 categories: [decihertz, multiband astronomy, space detectors, gravitational waves]
+sidebar: research-notes
 ---
 
 **Paper:** [Probing Compact Binary Coalescences in the Decihertz GW Band with IndIGO-D](https://arxiv.org/abs/2601.06956)
@@ -51,10 +52,7 @@ carry information about the source direction.
 
 For the sensitivity assumed in our study, a GW170817-like binary neutron
 star system is observable with IndIGO-D out to a horizon redshift of about
-
-$$
-z \sim 0.3.
-$$
+$z \sim 0.3$.
 
 Such systems would later enter the band of terrestrial detectors, providing
 multiband observations of the same binary.

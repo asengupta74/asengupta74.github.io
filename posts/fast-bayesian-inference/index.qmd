@@ -3,6 +3,7 @@ title: "Making Bayesian gravitational-wave inference faster"
 date: 2026-09-05
 description: "Why much of the computational cost of compact-binary inference can be removed without changing the statistical problem."
 categories: [parameter estimation, Bayesian inference, computational methods]
+sidebar: research-notes
 ---
 
 Bayesian parameter estimation for gravitational-wave signals repeatedly

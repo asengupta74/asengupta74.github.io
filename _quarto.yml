@@ -4,21 +4,42 @@ project:
 
 website:
   title: "Anand Sengupta"
+
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: research.qmd
         text: Research
-      - href: notes.qmd
+      - href: posts/indigo-d/index.qmd
         text: Research Notes
       - href: students.qmd
         text: Students
       - href: teaching.qmd
         text: Teaching
+      - href: contact.qmd
+        text: Contact
     right:
       - href: https://inspirehep.net/authors/1040066
         text: INSPIRE-HEP
+
+  sidebar:
+    - id: research-notes
+      title: "Research Notes"
+      style: floating
+      search: false
+      contents:
+        - text: "Latest"
+          href: posts/indigo-d/index.qmd
+
+        - section: "Earlier notes"
+          contents:
+            - text: "Breaking the long-signal barrier"
+              href: posts/long-signal-barrier/index.qmd
+            - text: "Low-discrepancy template banks"
+              href: posts/low-discrepancy-template-banks/index.qmd
+            - text: "Fast Bayesian inference"
+              href: posts/fast-bayesian-inference/index.qmd
 
 format:
   html:

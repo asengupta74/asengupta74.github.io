@@ -64,3 +64,137 @@
     margin-bottom: 2rem;
   }
 }
+
+/* Research Notes front page */
+
+.notes-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.notes-sidebar {
+  position: sticky;
+  top: 5.5rem;
+  padding-right: 1.5rem;
+  border-right: 1px solid #dee2e6;
+}
+
+.notes-sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.notes-sidebar a {
+  display: block;
+  margin-bottom: 1rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.notes-main {
+  max-width: 850px;
+}
+
+.featured-note img {
+  width: 100%;
+  max-width: 850px;
+  margin-bottom: 1rem;
+}
+
+.featured-note h3 {
+  margin-top: 0.4rem;
+  font-size: 1.6rem;
+}
+
+.featured-note > p:last-child a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .notes-layout {
+    display: block;
+  }
+
+  .notes-sidebar {
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Research Notes front page */
+
+.notes-layout {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.notes-sidebar {
+  position: sticky;
+  top: 5.5rem;
+  padding-right: 1.5rem;
+  border-right: 1px solid #dee2e6;
+}
+
+.notes-sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.notes-sidebar a {
+  display: block;
+  margin-bottom: 1rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.notes-main {
+  max-width: 850px;
+}
+
+.featured-note img {
+  width: 100%;
+  max-width: 850px;
+  margin-bottom: 1rem;
+}
+
+.featured-note h3 {
+  margin-top: 0.4rem;
+  font-size: 1.6rem;
+}
+
+.featured-note > p:last-child a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .notes-layout {
+    display: block;
+  }
+
+  .notes-sidebar {
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}

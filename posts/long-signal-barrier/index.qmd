@@ -4,6 +4,7 @@ date: 2026-09-18
 description: "Using the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable."
 image: figures/speedup.png
 categories: [parameter estimation, third-generation detectors, gravitational waves]
+sidebar: research-notes
 ---
 
 **Paper:** [Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors](https://arxiv.org/abs/2609.05375)  
