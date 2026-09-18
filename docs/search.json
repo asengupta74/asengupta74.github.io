@@ -29,7 +29,7 @@
     "crumbs": [
       "Home",
       "Earlier notes",
-      "Fast Bayesian inference"
+      "3. Fast Bayesian inference — 5 Sep 2026"
     ]
   },
   {
@@ -41,7 +41,7 @@
     "crumbs": [
       "Home",
       "Earlier notes",
-      "Fast Bayesian inference"
+      "3. Fast Bayesian inference — 5 Sep 2026"
     ]
   },
   {
@@ -53,7 +53,7 @@
     "crumbs": [
       "Home",
       "Earlier notes",
-      "Low-discrepancy template banks"
+      "2. Low-discrepancy template banks — 12 Sep 2026"
     ]
   },
   {
@@ -65,7 +65,7 @@
     "crumbs": [
       "Home",
       "Earlier notes",
-      "Low-discrepancy template banks"
+      "2. Low-discrepancy template banks — 12 Sep 2026"
     ]
   },
   {
@@ -140,7 +140,7 @@
     "crumbs": [
       "Home",
       "Earlier notes",
-      "Breaking the long-signal barrier"
+      "1. Breaking the long-signal barrier — 18 Sep 2026"
     ]
   },
   {
@@ -152,7 +152,7 @@
     "crumbs": [
       "Home",
       "Earlier notes",
-      "Breaking the long-signal barrier"
+      "1. Breaking the long-signal barrier — 18 Sep 2026"
     ]
   },
   {
@@ -226,34 +226,34 @@
     "href": "index.html",
     "title": "Anand Sengupta",
     "section": "",
-    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks."
+    "text": "Associate Professor\nDepartment of Physics\nIndian Institute of Technology Gandhinagar\n\n\n\nSenior Member, LIGO Scientific Collaboration\nLSC Council Member\n\n\n\nEmail\nINSPIRE-HEP\nSelected Publications\nGoogle Scholar\nORCID\nGitHub\n\n\n\n\n\nIndian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks.\nI have been continuously associated with the LIGO Scientific Collaboration since 2001, initially as a student member and, since 2010, as a Senior Member. My early work in the collaboration included compact-binary searches and contributions to the LIGO Algorithm Library (LAL) and LALApps software infrastructure. I was part of what was then the Inspiral Upper Limits Group (IUL Group), which subsequently evolved into the Compact Binary Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the LIGO Scientific Collaboration.\n\n\n\nCurrent themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page.\n\n\n\nShort writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster\n\n\n\n\nMy complete publication list is available on INSPIRE-HEP."
   },
   {
     "objectID": "index.html#associate-professor-of-physics",
     "href": "index.html#associate-professor-of-physics",
     "title": "Anand Sengupta",
     "section": "",
-    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks."
+    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks.\nI have been continuously associated with the LIGO Scientific Collaboration since 2001, initially as a student member and, since 2010, as a Senior Member. My early work in the collaboration included compact-binary searches and contributions to the LIGO Algorithm Library (LAL) and LALApps software infrastructure. I was part of what was then the Inspiral Upper Limits Group (IUL Group), which subsequently evolved into the Compact Binary Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the LIGO Scientific Collaboration."
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "Anand Sengupta",
-    "section": "Research",
-    "text": "Research\nCurrent themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page."
+    "section": "",
+    "text": "Current themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page."
   },
   {
     "objectID": "index.html#research-notes",
     "href": "index.html#research-notes",
     "title": "Anand Sengupta",
-    "section": "Research Notes",
-    "text": "Research Notes\nShort writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster"
+    "section": "",
+    "text": "Short writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster"
   },
   {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "Anand Sengupta",
-    "section": "Publications",
-    "text": "Publications\nMy complete publication list is available on INSPIRE-HEP."
+    "section": "",
+    "text": "My complete publication list is available on INSPIRE-HEP."
   }
 ]

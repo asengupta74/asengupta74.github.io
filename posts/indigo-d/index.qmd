@@ -1,7 +1,7 @@
 ---
 title: "IndIGO-D: gravitational-wave astronomy in the decihertz band"
 date: 2026-09-18
-description: "What a space-based L-shaped interferometer operating between LISA and ground-based detectors could add to gravitational-wave astronomy."
+description: "What a space-based L-shaped interferometer operating in the decihertz frequency band between LISA and ground-based detectors could add to gravitational-wave astronomy."
 image: figures/skymaps_tf_track.png
 categories: [decihertz, multiband astronomy, space detectors, gravitational waves]
 sidebar: research-notes

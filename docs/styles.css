@@ -198,3 +198,87 @@
     margin-bottom: 2rem;
   }
 }
+
+/* Homepage profile rail */
+
+.home-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.home-sidebar {
+  position: sticky;
+  top: 5.5rem;
+  padding-right: 1.5rem;
+  border-right: 1px solid #dee2e6;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.home-sidebar h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.home-sidebar h3:first-child {
+  margin-top: 0;
+}
+
+.home-sidebar a {
+  text-decoration: none;
+}
+
+.home-sidebar p {
+  margin-bottom: 0.7rem;
+}
+
+.home-main {
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+  .home-layout {
+    display: block;
+  }
+
+  .home-sidebar {
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-right: 0;
+    padding-bottom: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Make Research Notes sidebar entries visibly clickable */
+
+#quarto-sidebar .sidebar-item a,
+#quarto-sidebar .sidebar-item-text {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+#quarto-sidebar .sidebar-item a:hover,
+#quarto-sidebar .sidebar-item-text:hover {
+  color: var(--bs-link-hover-color);
+  text-decoration: underline;
+}
+
+#quarto-sidebar .sidebar-item a.active {
+  font-weight: 600;
+}
+
+/* Research-note summary under the page title */
+
+.quarto-title-block .description {
+  color: #b22222;
+  font-style: italic;
+}

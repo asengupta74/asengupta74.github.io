@@ -36,11 +36,11 @@ website:
 
         - section: "Earlier notes"
           contents:
-            - text: "Breaking the long-signal barrier"
+            - text: "1. Breaking the long-signal barrier — 18 Sep 2026"
               href: posts/long-signal-barrier/index.qmd
-            - text: "Low-discrepancy template banks"
+            - text: "2. Low-discrepancy template banks — 12 Sep 2026"
               href: posts/low-discrepancy-template-banks/index.qmd
-            - text: "Fast Bayesian inference"
+            - text: "3. Fast Bayesian inference — 5 Sep 2026"
               href: posts/fast-bayesian-inference/index.qmd
 
 format:
