@@ -285,7 +285,7 @@
     "href": "posts/indigo-d/index.html#other-science-in-the-decihertz-band",
     "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
     "section": "Other science in the decihertz band",
-    "text": "Other science in the decihertz band\nThe long low-frequency inspiral is also useful for physics that can become progressively harder to measure as binaries approach merger. Examples include residual orbital eccentricity and weak environmental effects such as perturbations from dense dark-matter distributions around intermediate-mass black holes.\nThese effects may be small instantaneously but can accumulate over the very large number of orbital cycles observed in the decihertz band.\nFor the adopted sensitivity and population assumptions, we estimate a binary-neutron-star detection rate of roughly\n\\[\n76\\text{--}767\\ \\mathrm{yr}^{-1}.\n\\]\nThe range is dominated by the uncertainty in the local BNS merger rate.",
+    "text": "Other science in the decihertz band\nThe long low-frequency inspiral is also useful for physics that can become progressively harder to measure as binaries approach merger. Examples include residual orbital eccentricity and weak environmental effects such as perturbations from dense dark-matter distributions around intermediate-mass black holes.\nThese effects may be small instantaneously but can accumulate over the very large number of orbital cycles observed in the decihertz band.\nFor the adopted sensitivity and population assumptions, we estimate a binary-neutron-star detection rate of roughly \\(76\\text{--}767\\,\\mathrm{yr}^{-1}\\).\nThe range is dominated by the uncertainty in the local BNS merger rate.",
     "crumbs": [
       "Home",
       "Latest"

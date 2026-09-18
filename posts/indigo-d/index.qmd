@@ -110,10 +110,7 @@ large number of orbital cycles observed in the decihertz band.
 
 For the adopted sensitivity and population assumptions, we estimate a
 binary-neutron-star detection rate of roughly
-
-$$
-76\text{--}767\ \mathrm{yr}^{-1}.
-$$
+$76\text{--}767\,\mathrm{yr}^{-1}$.
 
 The range is dominated by the uncertainty in the local BNS merger rate.
 
