@@ -1,0 +1,127 @@
+[
+  {
+    "title": "GWTC-3: Compact Binary Coalescences Observed by LIGO and Virgo during the Second Part of the Third Observing Run",
+    "year": 2023,
+    "note": "The IIT Gandhinagar group contributed efficient template banks used in the PyCBC broad and BBH analyses.",
+    "arxiv": "2111.03606"
+  },
+  {
+    "title": "GW190425: Observation of a Compact Binary Coalescence with Total Mass about 3.4 Solar Masses",
+    "year": 2020,
+    "note": "The IIT Gandhinagar group led the construction of optimized hybrid geometric-stochastic template banks used in the searches.",
+    "arxiv": "2001.01761"
+  },
+  {
+    "title": "GW190814: Gravitational Waves from the Coalescence of a 23 Solar Mass Black Hole with a 2.6 Solar Mass Compact Object",
+    "year": 2020,
+    "note": "Direct IIT Gandhinagar involvement through optimized hybrid template banks used in the searches.",
+    "arxiv": "2006.12611"
+  },
+  {
+    "title": "GW190412: Observation of a Binary-Black-Hole Coalescence with Asymmetric Masses",
+    "year": 2020,
+    "note": "The IIT Gandhinagar group developed optimized hybrid template banks and contributed one of the analyses establishing evidence for higher-order modes.",
+    "arxiv": "2004.08342"
+  },
+  {
+    "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+    "year": 2017,
+    "note": "First gravitational-wave observation of a binary-neutron-star inspiral.",
+    "arxiv": "1710.05832"
+  },
+  {
+    "title": "The basic physics of the binary black hole merger GW150914",
+    "year": 2017,
+    "arxiv": "1608.01940"
+  },
+  {
+    "title": "Properties of the Binary Black Hole Merger GW150914",
+    "year": 2016,
+    "arxiv": "1602.03840"
+  },
+  {
+    "title": "GW150914: First results from the search for binary black hole coalescence with Advanced LIGO",
+    "year": 2016,
+    "arxiv": "1602.03839"
+  },
+  {
+    "title": "Observing gravitational-wave transient GW150914 with minimal assumptions",
+    "year": 2016,
+    "arxiv": "1602.03843"
+  },
+  {
+    "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+    "year": 2016,
+    "note": "Discovery paper for GW150914, the first direct detection of gravitational waves.",
+    "arxiv": "1602.03837"
+  },
+  {
+    "title": "Advanced LIGO",
+    "year": 2015,
+    "arxiv": "1411.4547"
+  },
+  {
+    "title": "Enhanced sensitivity of the LIGO gravitational wave detector by using squeezed states of light",
+    "year": 2013
+  },
+  {
+    "title": "Searching for gravitational waves from binary coalescence",
+    "year": 2013,
+    "arxiv": "1208.3491"
+  },
+  {
+    "title": "Search for gravitational waves from binary black hole inspiral, merger, and ringdown",
+    "year": 2011,
+    "note": "S5 high-mass binary-black-hole search; analysis led by Anand S. Sengupta.",
+    "arxiv": "1102.3781"
+  },
+  {
+    "title": "Search for gravitational-wave bursts associated with gamma-ray bursts using data from LIGO Science Run 5 and Virgo Science Run 1",
+    "year": 2010
+  },
+  {
+    "title": "Search for Gravitational Waves from Low Mass Binary Coalescences in the First Year of LIGO's S5 Data",
+    "year": 2009,
+    "arxiv": "0901.0302"
+  },
+  {
+    "title": "LIGO: The Laser Interferometer Gravitational-Wave Observatory",
+    "year": 2009
+  },
+  {
+    "title": "Search for gravitational wave ringdowns from perturbed black holes in LIGO S4 data",
+    "year": 2009,
+    "arxiv": "0905.1654"
+  },
+  {
+    "title": "An Upper Limit on the Stochastic Gravitational-Wave Background of Cosmological Origin",
+    "year": 2009
+  },
+  {
+    "title": "Search for gravitational waves from binary inspirals in S3 and S4 LIGO data",
+    "year": 2008,
+    "arxiv": "0704.3368"
+  },
+  {
+    "title": "Implications for the Origin of GRB 070201 from LIGO Observations",
+    "year": 2008
+  },
+  {
+    "title": "Search of S3 LIGO data for gravitational wave signals from spinning black hole and neutron star binary inspirals",
+    "year": 2008
+  },
+  {
+    "title": "Search for Gravitational Waves Associated with 39 Gamma-Ray Bursts Using Data from the Second, Third, and Fourth LIGO Runs",
+    "year": 2008
+  },
+  {
+    "title": "Search for gravitational waves from binary black hole inspirals in LIGO data",
+    "year": 2006,
+    "arxiv": "gr-qc/0509129"
+  },
+  {
+    "title": "Analysis of LIGO data for gravitational waves from binary neutron stars",
+    "year": 2004,
+    "arxiv": "gr-qc/0308069"
+  }
+]

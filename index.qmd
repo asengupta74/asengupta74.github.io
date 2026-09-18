@@ -27,7 +27,7 @@ page-layout: full
 
 [Email](mailto:asengupta@iitgn.ac.in)  
 [INSPIRE-HEP](https://inspirehep.net/authors/1040066)  
-[Selected Publications](https://inspirehep.net/literature?sort=mostrecent&q=find%20a%20Sengupta%2C%20Anand%20S.%20and%20ac%201-%3E20)  
+[Selected Publications](publications.html)  
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=nqD2hsYAAAAJ&sortby=pubdate)  
 [ORCID](https://orcid.org/0000-0002-3212-0475)  
 [GitHub](https://github.com/asengupta74)

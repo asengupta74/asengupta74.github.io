@@ -1,0 +1,355 @@
+#!/usr/bin/env python3
+
+import json
+import re
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+
+AUTHOR_RECID = 1040066
+MAX_AUTHORS = 20
+
+API = "https://inspirehep.net/api"
+EXCEPTIONS_FILE = Path("publication_exceptions.json")
+OUTPUT_FILE = Path("publications.qmd")
+
+USER_AGENT = "asengupta74-publications/1.0"
+
+
+def get_json(url):
+    req = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+        },
+    )
+    with urlopen(req, timeout=60) as response:
+        return json.load(response)
+
+
+def search_literature(query, size=250):
+    results = []
+    page = 1
+
+    while True:
+        params = urlencode({
+            "q": query,
+            "sort": "mostrecent",
+            "size": size,
+            "page": page,
+        })
+
+        data = get_json(f"{API}/literature?{params}")
+
+        hits = data.get("hits", {}).get("hits", [])
+        results.extend(hits)
+
+        total = data.get("hits", {}).get("total", 0)
+        if isinstance(total, dict):
+            total = total.get("value", 0)
+
+        if not hits or len(results) >= total:
+            break
+
+        page += 1
+
+    return results
+
+
+def get_author_bai():
+    data = get_json(f"{API}/authors/{AUTHOR_RECID}")
+    metadata = data.get("metadata", {})
+
+    for ident in metadata.get("ids", []):
+        schema = str(ident.get("schema", "")).lower()
+        if "bai" in schema:
+            return ident.get("value")
+
+    return None
+
+
+def get_small_author_papers():
+    bai = get_author_bai()
+
+    if bai:
+        query = f"a {bai} and ac 1->{MAX_AUTHORS}"
+        papers = search_literature(query)
+
+        if papers:
+            print(f"Using INSPIRE BAI: {bai}")
+            return papers
+
+    # Fallback using the author-profile record itself.
+    query = f"authors.record.$ref:{AUTHOR_RECID} and ac 1->{MAX_AUTHORS}"
+    papers = search_literature(query)
+
+    if not papers:
+        raise RuntimeError(
+            "INSPIRE returned no publications for the author query."
+        )
+
+    print("Using INSPIRE author record query")
+    return papers
+
+
+def get_arxiv_number(metadata):
+    entries = metadata.get("arxiv_eprints", [])
+    if entries:
+        return entries[0].get("value")
+    return None
+
+
+def fetch_exception(arxiv):
+    query = f"arxiv_eprints.value:{arxiv}"
+    hits = search_literature(query, size=10)
+
+    if not hits:
+        # Fallback to a free search on the identifier.
+        hits = search_literature(arxiv, size=10)
+
+    for hit in hits:
+        if get_arxiv_number(hit.get("metadata", {})) == arxiv:
+            return hit
+
+    if hits:
+        return hits[0]
+
+    raise RuntimeError(f"Could not find INSPIRE record for arXiv:{arxiv}")
+
+
+def title_of(metadata):
+    titles = metadata.get("titles", [])
+    if not titles:
+        return "Untitled"
+
+    return titles[0].get("title", "Untitled").strip()
+
+
+def author_name(full_name):
+    if not full_name:
+        return ""
+
+    if "," in full_name:
+        family, given = full_name.split(",", 1)
+        return f"{given.strip()} {family.strip()}"
+
+    return full_name.strip()
+
+
+def authors_of(metadata):
+    authors = metadata.get("authors", [])
+    count = metadata.get("author_count", len(authors))
+
+    # Large collaboration papers should not print hundreds of names.
+    if count > MAX_AUTHORS:
+        collaborations = [
+            c.get("value")
+            for c in metadata.get("collaborations", [])
+            if c.get("value")
+        ]
+
+        if collaborations:
+            return ", ".join(collaborations)
+
+        if authors:
+            return f"{author_name(authors[0].get('full_name', ''))} et al."
+
+        return "Collaboration paper"
+
+    names = []
+
+    for author in authors:
+        name = author_name(author.get("full_name", ""))
+
+        # Highlight Anand's name on small-author papers.
+        low = name.lower()
+        if "sengupta" in low and "anand" in low:
+            name = f"**{name}**"
+
+        if name:
+            names.append(name)
+
+    return ", ".join(names)
+
+
+def year_of(metadata):
+    for pub in metadata.get("publication_info", []):
+        year = pub.get("year")
+        if year:
+            return int(year)
+
+    for key in ("preprint_date", "earliest_date"):
+        value = metadata.get(key)
+        if value:
+            match = re.match(r"(\d{4})", str(value))
+            if match:
+                return int(match.group(1))
+
+    return 0
+
+
+def date_key(metadata):
+    for key in ("earliest_date", "preprint_date"):
+        value = metadata.get(key)
+        if value:
+            return str(value)
+
+    year = year_of(metadata)
+    return f"{year:04d}-00-00"
+
+
+def journal_of(metadata):
+    pubs = metadata.get("publication_info", [])
+    if not pubs:
+        return ""
+
+    pub = pubs[0]
+
+    journal = pub.get("journal_title", "")
+    volume = pub.get("journal_volume", "")
+    artid = pub.get("artid") or pub.get("page_start") or ""
+    year = pub.get("year", "")
+
+    result = journal
+
+    if volume:
+        result += f" {volume}"
+
+    if artid:
+        result += f", {artid}"
+
+    if year:
+        result += f" ({year})"
+
+    return result.strip()
+
+
+def doi_of(metadata):
+    dois = metadata.get("dois", [])
+    if dois:
+        return dois[0].get("value")
+    return None
+
+
+def render_record(record, note=None):
+    metadata = record.get("metadata", {})
+    recid = record.get("id")
+
+    title = title_of(metadata)
+    authors = authors_of(metadata)
+    journal = journal_of(metadata)
+    arxiv = get_arxiv_number(metadata)
+    doi = doi_of(metadata)
+
+    inspire_url = f"https://inspirehep.net/literature/{recid}"
+
+    lines = [
+        f"1. **[{title}]({inspire_url})**  ",
+        f"   {authors}  ",
+    ]
+
+    links = []
+
+    if journal:
+        links.append(journal)
+
+    if arxiv:
+        links.append(
+            f"[arXiv:{arxiv}](https://arxiv.org/abs/{arxiv})"
+        )
+
+    if doi:
+        links.append(
+            f"[DOI](https://doi.org/{doi})"
+        )
+
+    if links:
+        lines.append("   " + " · ".join(links) + "  ")
+
+    if note:
+        lines.append(f"   *Why included:* {note}  ")
+
+    lines.append("")
+
+    return "\n".join(lines)
+
+
+def main():
+    small_papers = get_small_author_papers()
+
+    exceptions = json.loads(EXCEPTIONS_FILE.read_text())
+
+    # recid -> {"record": ..., "note": ...}
+    selected = {}
+
+    for record in small_papers:
+        selected[str(record["id"])] = {
+            "record": record,
+            "note": None,
+        }
+
+    for item in exceptions:
+        record = fetch_exception(item["arxiv"])
+        selected[str(record["id"])] = {
+            "record": record,
+            "note": item["note"],
+        }
+
+    papers = list(selected.values())
+
+    papers.sort(
+        key=lambda x: date_key(x["record"].get("metadata", {})),
+        reverse=True,
+    )
+
+    out = [
+        "---",
+        'title: "Selected Publications"',
+        "---",
+        "",
+        "This page is generated automatically from "
+        "[INSPIRE-HEP](https://inspirehep.net/authors/1040066). "
+        f"It includes all papers on my INSPIRE profile with **{MAX_AUTHORS} "
+        "or fewer authors**, together with a small number of collaboration "
+        "papers selected for their scientific significance or for direct "
+        "involvement of my research group.",
+        "",
+        "For the complete publication record, including all collaboration papers, "
+        "see my [INSPIRE-HEP profile](https://inspirehep.net/authors/1040066).",
+        "",
+    ]
+
+    current_year = None
+
+    for item in papers:
+        metadata = item["record"].get("metadata", {})
+        year = year_of(metadata)
+
+        if year != current_year:
+            current_year = year
+            out.extend([
+                f"## {year if year else 'Undated'}",
+                "",
+            ])
+
+        out.append(
+            render_record(item["record"], item["note"])
+        )
+
+    content = "\n".join(out).rstrip() + "\n"
+
+    # Only rewrite when the generated page has really changed.
+    old = OUTPUT_FILE.read_text() if OUTPUT_FILE.exists() else None
+
+    if old == content:
+        print("publications.qmd is already up to date")
+    else:
+        OUTPUT_FILE.write_text(content)
+        print(
+            f"Wrote {OUTPUT_FILE} with {len(papers)} selected publications"
+        )
+
+
+if __name__ == "__main__":
+    main()

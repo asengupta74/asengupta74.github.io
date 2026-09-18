@@ -10,6 +10,6 @@ Indian Institute of Technology Gandhinagar
 Email: [asengupta@iitgn.ac.in](mailto:asengupta@iitgn.ac.in)
 
 [INSPIRE-HEP](https://inspirehep.net/authors/1040066) ·
-[Selected Publications](https://inspirehep.net/literature?sort=mostrecent&q=find%20a%20Sengupta%2C%20Anand%20S.%20and%20ac%201-%3E20) ·
+[Selected Publications](publications.html) ·
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=nqD2hsYAAAAJ&view_op=list_works&authuser=1&sortby=pubdate) ·
 [GitHub](https://github.com/asengupta74)

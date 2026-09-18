@@ -1,0 +1,324 @@
+## Research papers
+
+### 2026
+
+1. **[Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors](https://inspirehep.net/literature/3200293)**  
+   **Anand S. Sengupta**  
+   [arXiv:2609.05375](https://arxiv.org/abs/2609.05375)  
+
+1. **[Stochastic template banks for GW searches using low-discrepancy sequences](https://inspirehep.net/literature/3182290)**  
+   Tarun Kumar, **Anand S. Sengupta**  
+   [arXiv:2607.18633](https://arxiv.org/abs/2607.18633)  
+
+1. **[IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band](https://inspirehep.net/literature/3103188)**  
+   Abhishek Sharma, Divya Tahelyani, **Anand S. Sengupta**, Sanjit Mitra  
+   [arXiv:2601.06956](https://arxiv.org/abs/2601.06956)  
+
+1. **[Rapid parameter estimation with the full symphony of compact binary mergers using a meshfree approximation](https://inspirehep.net/literature/2957969)**  
+   Abhishek Sharma, Lalit Pathak, Soumen Roy, **Anand S. Sengupta**  
+   Phys.Rev.D 114, 044043 (2026) · [arXiv:2508.04172](https://arxiv.org/abs/2508.04172) · [DOI](https://doi.org/10.1103/9xck-m23j)  
+
+1. **[Probing missing physics from inspiralling compact binaries via time-frequency tracks](https://inspirehep.net/literature/2955223)**  
+   Debtroy Das, Soumen Roy, **Anand S. Sengupta**, Cosimo Bambi  
+   Eur.Phys.J.C 86, 667 (2026) · [arXiv:2507.21566](https://arxiv.org/abs/2507.21566) · [DOI](https://doi.org/10.1140/epjc/s10052-026-15938-z)  
+
+### 2025
+
+1. **[Probing dark matter halo profiles with multiband observations of gravitational waves](https://inspirehep.net/literature/2850558)**  
+   Divya Tahelyani, Arpan Bhattacharyya, **Anand S. Sengupta**  
+   Phys.Rev.D 111, 083041 (2025) · [arXiv:2411.14063](https://arxiv.org/abs/2411.14063) · [DOI](https://doi.org/10.1103/PhysRevD.111.083041)  
+
+1. **[Accelerated parameter estimation of supermassive black hole binaries in LISA using a meshfree approximation](https://inspirehep.net/literature/2831957)**  
+   Abhishek Sharma, **Anand S. Sengupta**, Suvodip Mukherjee  
+   Phys.Rev.D 111, 042009 (2025) · [arXiv:2409.14288](https://arxiv.org/abs/2409.14288) · [DOI](https://doi.org/10.1103/PhysRevD.111.042009)  
+
+### 2024
+
+1. **[Fast and faithful interpolation of numerical relativity surrogate waveforms using a meshfree approximation](https://inspirehep.net/literature/2772403)**  
+   Lalit Pathak, Amit Reza, **Anand S. Sengupta**  
+   Phys.Rev.D 110, 064022 (2024) · [arXiv:2403.19162](https://arxiv.org/abs/2403.19162) · [DOI](https://doi.org/10.1103/PhysRevD.110.064022)  
+
+1. **[Pinpointing coalescing binary neutron star sources with the IGWN, including LIGO-Aundha](https://inspirehep.net/literature/2726693)**  
+   Sachin R. Shukla, Lalit Pathak, **Anand S. Sengupta**  
+   Phys.Rev.D 109, 044051 (2024) · [arXiv:2311.15695](https://arxiv.org/abs/2311.15695) · [DOI](https://doi.org/10.1103/PhysRevD.109.044051)  
+
+1. **[Template bank to search for exotic gravitational wave signals from astrophysical compact binaries](https://inspirehep.net/literature/2719363)**  
+   Abhishek Sharma, Soumen Roy, **Anand S. Sengupta**  
+   Phys.Rev.D 109, 124049 (2024) · [arXiv:2311.03274](https://arxiv.org/abs/2311.03274) · [DOI](https://doi.org/10.1103/PhysRevD.109.124049)  
+
+1. **[Prompt sky localization of compact binary sources using a meshfree approximation](https://inspirehep.net/literature/2697230)**  
+   Lalit Pathak, Sanket Munishwar, Amit Reza, **Anand S. Sengupta**  
+   Phys.Rev.D 109, 024053 (2024) · [arXiv:2309.07012](https://arxiv.org/abs/2309.07012) · [DOI](https://doi.org/10.1103/PhysRevD.109.024053)  
+
+### 2023
+
+1. **[Does the speed of gravitational waves depend on the source velocity?](https://inspirehep.net/literature/2734532)**  
+   Rajes Ghosh, Sreejith Nair, Lalit Pathak, Sudipta Sarkar, **Anand S. Sengupta**  
+   Phys.Rev.D 108, 124017 (2023) · [arXiv:2304.14820](https://arxiv.org/abs/2304.14820) · [DOI](https://doi.org/10.1103/PhysRevD.108.124017)  
+
+1. **[Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources](https://inspirehep.net/literature/2704447)**  
+   Lalit Pathak, Amit Reza, **Anand S. Sengupta**  
+   Phys.Rev.D 108, 064055 (2023) · [arXiv:2210.02706](https://arxiv.org/abs/2210.02706) · [DOI](https://doi.org/10.1103/PhysRevD.108.064055)  
+
+1. **[Beyond general relativity: Designing a template-based search for exotic gravitational wave signals](https://inspirehep.net/literature/2120659)**  
+   Harsh Narola, Soumen Roy, **Anand S. Sengupta**  
+   Phys.Rev.D 107, 024017 (2023) · [arXiv:2207.10410](https://arxiv.org/abs/2207.10410) · [DOI](https://doi.org/10.1103/PhysRevD.107.024017)  
+
+1. **[GWTC-3: Compact Binary Coalescences Observed by LIGO and Virgo during the Second Part of the Third Observing Run](https://inspirehep.net/literature/1961691)**  
+   KAGRA, VIRGO, LIGO Scientific  
+   Phys.Rev.X 13, 041039 (2023) · [arXiv:2111.03606](https://arxiv.org/abs/2111.03606) · [DOI](https://doi.org/10.1103/PhysRevX.13.041039)  
+   *Note:* The IIT Gandhinagar group contributed efficient template banks used in the PyCBC broad and BBH analyses.  
+
+### 2022
+
+1. **[SPIIR online coherent pipeline to search for gravitational waves from compact binary coalescences](https://inspirehep.net/literature/1830218)**  
+   Qi Chu, Manoj Kovalam, Linqing Wen, Teresa Slaven-Blair, Joel Bosveld, Yanbei Chen, Patrick Clearwater, Alex Codoreanu, Zhihui Du, Xiangyu Guo, Xiaoyang Guo, Kyungmin Kim, Tjonnie G.F. Li, Victor Oloworaran, Fiona Panther, Jade Powell, **Anand S. Sengupta**, Karl Wette, Xingjiang Zhu  
+   Phys.Rev.D 105, 024023 (2022) · [arXiv:2011.06787](https://arxiv.org/abs/2011.06787) · [DOI](https://doi.org/10.1103/PhysRevD.105.024023)  
+
+### 2021
+
+1. **[Random projections in gravitational-wave searches from compact binaries II: efficient reconstruction of the detection statistic](https://inspirehep.net/literature/1840224)**  
+   Amit Reza, Anirban Dasgupta, **Anand S. Sengupta**  
+   [arXiv:2101.03226](https://arxiv.org/abs/2101.03226)  
+
+1. **[Unveiling the spectrum of inspiralling binary black holes](https://inspirehep.net/literature/1758476)**  
+   Soumen Roy, **Anand S. Sengupta**, K.G. Arun  
+   Phys.Rev.D 103, 064012 (2021) · [arXiv:1910.04565](https://arxiv.org/abs/1910.04565) · [DOI](https://doi.org/10.1103/PhysRevD.103.064012)  
+
+### 2020
+
+1. **[GW190814: Gravitational Waves from the Coalescence of a 23 Solar Mass Black Hole with a 2.6 Solar Mass Compact Object](https://inspirehep.net/literature/1802497)**  
+   LIGO Scientific, Virgo  
+   Astrophys.J.Lett. 896, L44 (2020) · [arXiv:2006.12611](https://arxiv.org/abs/2006.12611) · [DOI](https://doi.org/10.3847/2041-8213/ab960f)  
+   *Note:* Direct IIT Gandhinagar involvement through optimized hybrid template banks used in the searches.  
+
+1. **[GW190412: Observation of a Binary-Black-Hole Coalescence with Asymmetric Masses](https://inspirehep.net/literature/1791693)**  
+   LIGO Scientific, Virgo  
+   Phys.Rev.D 102, 043015 (2020) · [arXiv:2004.08342](https://arxiv.org/abs/2004.08342) · [DOI](https://doi.org/10.1103/PhysRevD.102.043015)  
+   *Note:* The IIT Gandhinagar group developed optimized hybrid template banks and contributed one of the analyses establishing evidence for higher-order modes.  
+
+1. **[GW190425: Observation of a Compact Binary Coalescence with Total Mass $\sim 3.4 M_{\odot}$](https://inspirehep.net/literature/1774379)**  
+   LIGO Scientific, Virgo  
+   Astrophys.J.Lett. 892, L3 (2020) · [arXiv:2001.01761](https://arxiv.org/abs/2001.01761) · [DOI](https://doi.org/10.3847/2041-8213/ab75f5)  
+   *Note:* The IIT Gandhinagar group led the construction of optimized hybrid geometric-stochastic template banks used in the searches.  
+
+### 2019
+
+1. **[Random projections in gravitational wave searches of compact binaries](https://inspirehep.net/literature/1648118)**  
+   Sumeet Kulkarni, Khun Sang Phukon, Amit Reza, Sukanta Bose, Anirban Dasgupta, Dilip Krishnaswamy, **Anand S. Sengupta**  
+   Phys.Rev.D 99, 101503 (2019) · [arXiv:1801.04506](https://arxiv.org/abs/1801.04506) · [DOI](https://doi.org/10.1103/PhysRevD.99.101503)  
+
+1. **[Effectual template banks for upcoming compact binary searches in Advanced-LIGO and Virgo data](https://inspirehep.net/literature/1638350)**  
+   Soumen Roy, **Anand S. Sengupta**, Parameswaran Ajith  
+   Phys.Rev.D 99, 024048 (2019) · [arXiv:1711.08743](https://arxiv.org/abs/1711.08743) · [DOI](https://doi.org/10.1103/PhysRevD.99.024048)  
+
+### 2017
+
+1. **[GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral](https://inspirehep.net/literature/1630824)**  
+   LIGO Scientific, Virgo  
+   Phys.Rev.Lett. 119, 161101 (2017) · [arXiv:1710.05832](https://arxiv.org/abs/1710.05832) · [DOI](https://doi.org/10.1103/PhysRevLett.119.161101)  
+   *Note:* First gravitational-wave observation of a binary-neutron-star inspiral.  
+
+1. **[Hybrid geometric-random template-placement algorithm for gravitational wave searches from compact binary coalescences](https://inspirehep.net/literature/1514713)**  
+   Soumen Roy, **Anand S. Sengupta**, Nilay Thakor  
+   Phys.Rev.D 95, 104045 (2017) · [arXiv:1702.06771](https://arxiv.org/abs/1702.06771) · [DOI](https://doi.org/10.1103/PhysRevD.95.104045)  
+
+- **[Least square ellipsoid fitting using iterative orthogonal transformations](https://doi.org/10.1016/j.amc.2017.07.025)**  
+  Amit Reza, Anand S. Sengupta  
+  Applied Mathematics and Computation 314, 349–359 · 2017 · [DOI](https://doi.org/10.1016/j.amc.2017.07.025) · [arXiv:1704.04877](https://arxiv.org/abs/1704.04877)  
+
+1. **[The basic physics of the binary black hole merger GW150914](https://inspirehep.net/literature/1479757)**  
+   LIGO Scientific, Virgo  
+   Annalen Phys. 529, 1600209 (2017) · [arXiv:1608.01940](https://arxiv.org/abs/1608.01940) · [DOI](https://doi.org/10.1002/andp.201600209)  
+
+### 2016
+
+1. **[Properties of the Binary Black Hole Merger GW150914](https://inspirehep.net/literature/1421135)**  
+   LIGO Scientific, Virgo  
+   Phys.Rev.Lett. 116, 241102 (2016) · [arXiv:1602.03840](https://arxiv.org/abs/1602.03840) · [DOI](https://doi.org/10.1103/PhysRevLett.116.241102)  
+
+1. **[GW150914: First results from the search for binary black hole coalescence with Advanced LIGO](https://inspirehep.net/literature/1421134)**  
+   LIGO Scientific, Virgo  
+   Phys.Rev.D 93, 122003 (2016) · [arXiv:1602.03839](https://arxiv.org/abs/1602.03839) · [DOI](https://doi.org/10.1103/PhysRevD.93.122003)  
+
+1. **[Observing gravitational-wave transient GW150914 with minimal assumptions](https://inspirehep.net/literature/1421137)**  
+   LIGO Scientific, Virgo  
+   Phys.Rev.D 93, 122004 (2016) · [arXiv:1602.03843](https://arxiv.org/abs/1602.03843) · [DOI](https://doi.org/10.1103/PhysRevD.93.122004)  
+
+1. **[Observation of Gravitational Waves from a Binary Black Hole Merger](https://inspirehep.net/literature/1421100)**  
+   LIGO Scientific, Virgo  
+   Phys.Rev.Lett. 116, 061102 (2016) · [arXiv:1602.03837](https://arxiv.org/abs/1602.03837) · [DOI](https://doi.org/10.1103/PhysRevLett.116.061102)  
+   *Note:* Discovery paper for GW150914, the first direct detection of gravitational waves.  
+
+### 2015
+
+1. **[Advanced LIGO](https://inspirehep.net/literature/1328453)**  
+   LIGO Scientific  
+   Class.Quant.Grav. 32, 074001 (2015) · [arXiv:1411.4547](https://arxiv.org/abs/1411.4547) · [DOI](https://doi.org/10.1088/0264-9381/32/7/074001)  
+
+### 2013
+
+1. **[Enhancing the sensitivity of the LIGO gravitational wave detector by using squeezed states of light](https://inspirehep.net/literature/1249443)**  
+   LIGO Scientific  
+   Nature Photon. 7, 613 (2013) · [arXiv:1310.0383](https://arxiv.org/abs/1310.0383) · [DOI](https://doi.org/10.1038/nphoton.2013.177)  
+
+- **[Exploring viscous damping in undergraduate Physics laboratory using electro-magnetically coupled oscillators](https://arxiv.org/abs/1311.7489)**  
+  N. Jayaprasad, P. Sadani, M. Bhalerao, A. S. Sengupta, B. Majumder  
+  2013 · [arXiv:1311.7489](https://arxiv.org/abs/1311.7489)  
+
+- **[Predicting the spread of alligator weed (Alternanthera philoxeroides) in Wular lake, India: A mathematical approach](https://doi.org/10.1016/j.ecolmodel.2013.04.021)**  
+  Ather Masoodi, Anand S. Sengupta, Fareed A. Khan, Gyan P. Sharma  
+  Ecological Modelling 263, 119–125 · 2013 · [DOI](https://doi.org/10.1016/j.ecolmodel.2013.04.021)  
+
+1. **[Searching for gravitational waves from binary coalescence](https://inspirehep.net/literature/1127983)**  
+   S. Babak et al.  
+   Phys.Rev.D 87, 024033 (2013) · [arXiv:1208.3491](https://arxiv.org/abs/1208.3491) · [DOI](https://doi.org/10.1103/PhysRevD.87.024033)  
+
+### 2011
+
+1. **[Search for gravitational waves from binary black hole inspiral, merger and ringdown](https://inspirehep.net/literature/890114)**  
+   LIGO Scientific, VIRGO  
+   Phys.Rev.D 83, 122005 (2011) · [arXiv:1102.3781](https://arxiv.org/abs/1102.3781) · [DOI](https://doi.org/10.1103/PhysRevD.83.122005)  
+   *Note:* S5 high-mass binary-black-hole search; analysis led by Anand S. Sengupta.  
+
+### 2010
+
+1. **[LIGO-Virgo searches for gravitational waves from coalescing binaries: a status update](https://inspirehep.net/literature/836938)**  
+   **Anand S. Sengupta**  
+   J.Phys.Conf.Ser. 228, 012002 (2010) · [arXiv:0911.2738](https://arxiv.org/abs/0911.2738) · [DOI](https://doi.org/10.1088/1742-6596/228/1/012002)  
+
+1. **[Search for gravitational-wave bursts associated with gamma-ray bursts using data from LIGO Science Run 5 and Virgo Science Run 1](https://inspirehep.net/literature/829538)**  
+   VIRGO  
+   Astrophys.J. 715, 1438 (2010) · [arXiv:0908.3824](https://arxiv.org/abs/0908.3824) · [DOI](https://doi.org/10.1088/0004-637X/715/2/1438)  
+
+### 2009
+
+1. **[An Upper Limit on the Stochastic Gravitational-Wave Background of Cosmological Origin](https://inspirehep.net/literature/835588)**  
+   LIGO Scientific, VIRGO  
+   Nature 460, 990 (2009) · [arXiv:0910.5772](https://arxiv.org/abs/0910.5772) · [DOI](https://doi.org/10.1038/nature08278)  
+
+1. **[Search for gravitational wave ringdowns from perturbed black holes in LIGO S4 data](https://inspirehep.net/literature/819976)**  
+   LIGO Scientific  
+   Phys.Rev.D 80, 062001 (2009) · [arXiv:0905.1654](https://arxiv.org/abs/0905.1654) · [DOI](https://doi.org/10.1103/PhysRevD.80.062001)  
+
+1. **[Search for Gravitational Waves from Low Mass Binary Coalescences in the First Year of LIGO's S5 Data](https://inspirehep.net/literature/810224)**  
+   LIGO Scientific  
+   Phys.Rev.D 79, 122001 (2009) · [arXiv:0901.0302](https://arxiv.org/abs/0901.0302) · [DOI](https://doi.org/10.1103/PhysRevD.79.122001)  
+
+1. **[LIGO: The Laser interferometer gravitational-wave observatory](https://inspirehep.net/literature/768135)**  
+   LIGO Scientific  
+   Rept.Prog.Phys. 72, 076901 (2009) · [arXiv:0711.3041](https://arxiv.org/abs/0711.3041) · [DOI](https://doi.org/10.1088/0034-4885/72/7/076901)  
+
+1. **[CMB power spectrum estimation with non-circular beam and incomplete sky coverage](https://inspirehep.net/literature/743822)**  
+   Sanjit Mitra, **Anand S. Sengupta**, Subharthi Ray, Rajib Saha, Tarun Souradeep  
+   Mon.Not.Roy.Astron.Soc. 394, 1419 (2009) · [arXiv:astro-ph/0702100](https://arxiv.org/abs/astro-ph/0702100) · [DOI](https://doi.org/10.1111/j.1365-2966.2008.14277.x)  
+
+### 2008
+
+1. **[A Geometric algorithm for efficient coincident detection of gravitational waves](https://inspirehep.net/literature/784689)**  
+   C.A.K. Robinson, B.S. Sathyaprakash, **Anand S. Sengupta**  
+   Phys.Rev.D 78, 062002 (2008) · [arXiv:0804.4816](https://arxiv.org/abs/0804.4816) · [DOI](https://doi.org/10.1103/PhysRevD.78.062002)  
+
+1. **[Search for gravitational waves associated with 39 gamma-ray bursts using data from the second, third, and fourth LIGO runs](https://inspirehep.net/literature/782078)**  
+   LIGO Scientific  
+   Phys.Rev.D 77, 062004 (2008) · [arXiv:0709.0766](https://arxiv.org/abs/0709.0766) · [DOI](https://doi.org/10.1103/PhysRevD.77.062004)  
+
+1. **[Search of S3 LIGO data for gravitational wave signals from spinning black hole and neutron star binary inspirals](https://inspirehep.net/literature/770394)**  
+   LIGO Scientific  
+   Phys.Rev.D 78, 042002 (2008) · [arXiv:0712.2050](https://arxiv.org/abs/0712.2050) · [DOI](https://doi.org/10.1103/PhysRevD.78.042002)  
+
+1. **[Implications for the Origin of GRB 070201 from LIGO Observations](https://inspirehep.net/literature/767001)**  
+   LIGO Scientific  
+   Astrophys.J. 681, 1419 (2008) · [arXiv:0711.1163](https://arxiv.org/abs/0711.1163) · [DOI](https://doi.org/10.1086/587954)  
+
+1. **[Search for gravitational waves from binary inspirals in S3 and S4 LIGO data](https://inspirehep.net/literature/749287)**  
+   LIGO Scientific  
+   Phys.Rev.D 77, 062002 (2008) · [arXiv:0704.3368](https://arxiv.org/abs/0704.3368) · [DOI](https://doi.org/10.1103/PhysRevD.77.062002)  
+
+1. **[Relativistic anisotropic charged fluid spheres with varying cosmological constant](https://inspirehep.net/literature/632103)**  
+   Saibal Ray, Sumana Bhadra, **Anand S. Sengupta**  
+   Astrophys.Space Sci. 315, 341 (2008) · [arXiv:gr-qc/0310133](https://arxiv.org/abs/gr-qc/0310133) · [DOI](https://doi.org/10.1007/s10509-008-9843-2)  
+
+### 2007
+
+1. **[Binary black hole spectroscopy](https://inspirehep.net/literature/730006)**  
+   Chris Van Den Broeck, **Anand S. Sengupta**  
+   Class.Quant.Grav. 24, 1089 (2007) · [arXiv:gr-qc/0610126](https://arxiv.org/abs/gr-qc/0610126) · [DOI](https://doi.org/10.1088/0264-9381/24/5/005)  
+
+1. **[Phenomenology of amplitude-corrected post-Newtonian gravitational waveforms for compact binary inspiral. I. Signal-to-noise ratios](https://inspirehep.net/literature/722121)**  
+   Chris Van Den Broeck, **Anand S. Sengupta**  
+   Class.Quant.Grav. 24, 155 (2007) · [arXiv:gr-qc/0607092](https://arxiv.org/abs/gr-qc/0607092) · [DOI](https://doi.org/10.1088/0264-9381/24/1/009)  
+
+### 2006
+
+1. **[Compact binary inspiral and the science potential of third-generation ground-based gravitational wave detectors](https://inspirehep.net/literature/734364)**  
+   Chris Van Den Broeck, **Anand S. Sengupta**  
+   , 2401 · [arXiv:gr-qc/0612085](https://arxiv.org/abs/gr-qc/0612085) · [DOI](https://doi.org/10.1142/9789812834300_0419)  
+
+1. **[Non-Circular beam correction to the CMB power spectrum](https://inspirehep.net/literature/724528)**  
+   Tarun Souradeep, Sanjit Mitra, **Anand Sengupta**, Subharthi Ray, Rajib Saha  
+   New Astron.Rev. 50, 1030 (2006) · [arXiv:astro-ph/0608505](https://arxiv.org/abs/astro-ph/0608505) · [DOI](https://doi.org/10.1016/j.newar.2006.09.011)  
+
+1. **[Search for gravitational waves from binary black hole inspirals in LIGO data](https://inspirehep.net/literature/693736)**  
+   LIGO Scientific  
+   Phys.Rev.D 73, 062001 (2006) · [arXiv:gr-qc/0509129](https://arxiv.org/abs/gr-qc/0509129) · [DOI](https://doi.org/10.1103/PhysRevD.73.062001)  
+
+### 2004
+
+1. **[CMB power spectrum estimation using non-circular beam](https://inspirehep.net/literature/650769)**  
+   Sanjit Mitra, **Anand S. Sengupta**, Tarun Souradeep  
+   Phys.Rev.D 70, 103002 (2004) · [arXiv:astro-ph/0405406](https://arxiv.org/abs/astro-ph/0405406) · [DOI](https://doi.org/10.1103/PhysRevD.70.103002)  
+
+1. **[Analysis of LIGO Data for Gravitational Waves from Binary Neutron Stars](https://inspirehep.net/literature/626312)**  
+   LIGO Scientific  
+   Phys.Rev.D 69, 122001 (2004) · [arXiv:gr-qc/0308069](https://arxiv.org/abs/gr-qc/0308069) · [DOI](https://doi.org/10.1103/PhysRevD.69.122001)  
+
+### 2003
+
+1. **[A Faster implementation of the hierarchical search algorithm for detection of gravitational waves from inspiraling compact binaries](https://inspirehep.net/literature/611280)**  
+   **Anand S. Sengupta**, Sanjeev Dhurandhar, Albert Lazzarini  
+   Phys.Rev.D 67, 082004 (2003) · [arXiv:gr-qc/0301025](https://arxiv.org/abs/gr-qc/0301025) · [DOI](https://doi.org/10.1103/PhysRevD.67.082004)  
+
+### 2002
+
+1. **[Extended hierarchical search (EHS) algorithm for detection of gravitational waves from inspiraling compact binaries](https://inspirehep.net/literature/563488)**  
+   **Anand S. Sengupta**, Sanjeev V. Dhurandhar, Albert Lazzarini, Tom Prince  
+   Class.Quant.Grav. 19, 1507 (2002) · [arXiv:gr-qc/0109088](https://arxiv.org/abs/gr-qc/0109088) · [DOI](https://doi.org/10.1088/0264-9381/19/7/337)  
+
+## Popular articles
+
+- **[মহাকর্ষীয় তরঙ্গের আবিষ্কারে জিত ভারতীয় মেধার!](https://www.anandabazar.com/science/indians-are-the-main-pillars-behind-gravitational-wave-discovery-dgtl-1.314149)**  
+  Anand S. Sengupta  
+  Anandabazar Patrika · 2016-02-20  
+
+- **[In the Latest Gravitational Wave Signal, a New Music Meets an Old Prediction](https://science.thewire.in/the-sciences/gw190412-black-hole-merger-ligo-virgo-harmonics-einstein-prediction/)**  
+  P. Ajith, K. G. Arun, Anand S. Sengupta  
+  The Wire Science · 2020-04-30  
+
+## Conference proceedings
+
+- **[Geometric-stochastic template banks for gravitational wave searches from compact binaries in advanced-LIGO data](https://www.researchgate.net/publication/343712804_Geometric-stochastic_template_banks_for_gravitational_wave_searches_from_compact_binaries_in_advanced-LIGO_data)**  
+  Soumen Roy, Anand S. Sengupta, Parameswaran Ajith  
+  42nd COSPAR Scientific Assembly, E1.15-36-18 · 2018  
+
+- **[Autonomous Dome for a Robotic Telescope](https://astronomia.unam.mx/journals/rmxac/article/view/2016rmxac..48...29k)**  
+  Akash Kumar, Anand S. Sengupta, Shashikiran Ganesh  
+  Revista Mexicana de Astronomía y Astrofísica Serie de Conferencias 48, 29–30 · 2016 · [arXiv:1604.08370](https://arxiv.org/abs/1604.08370)  
+
+- **[LIGO-Virgo searches for gravitational waves from coalescing binaries: a status update](https://doi.org/10.1088/1742-6596/228/1/012002)**  
+  Anand S. Sengupta on behalf of the LIGO Scientific Collaboration and Virgo Collaboration  
+  Journal of Physics: Conference Series 228, 012002 · 2010 · [DOI](https://doi.org/10.1088/1742-6596/228/1/012002) · [arXiv:0911.2738](https://arxiv.org/abs/0911.2738)  
+
+- **[Compact binary inspiral and the science potential of third-generation ground-based gravitational wave detectors](https://doi.org/10.1142/9789812834300_0419)**  
+  C. Van Den Broeck, Anand S. Sengupta  
+  Proceedings of the 11th Marcel Grossmann Meeting · 2008 · [DOI](https://doi.org/10.1142/9789812834300_0419) · [arXiv:gr-qc/0612085](https://arxiv.org/abs/gr-qc/0612085)  
+
+- **[Extended hierarchical search (EHS) algorithm for detection of gravitational waves from inspiraling compact binaries](https://doi.org/10.1088/0264-9381/19/7/337)**  
+  Anand S. Sengupta, S. V. Dhurandhar, A. Lazzarini, T. Prince  
+  Classical and Quantum Gravity 19, 1507–1512 · 2002 · [DOI](https://doi.org/10.1088/0264-9381/19/7/337) · [arXiv:gr-qc/0109088](https://arxiv.org/abs/gr-qc/0109088)  
+
+## Technical reports
+
+- **[LIGO-India: Proposal of the Consortium for Indian Initiative in Gravitational-wave Observations (IndIGO)](https://dcc.ligo.org/ligo-m1100296/public)**  
+  B. Iyer, T. Souradeep, C. S. Unnikrishnan, S. Dhurandhar, S. Raja, A. Kumar, Anand S. Sengupta  
+  2011 · LIGO-M1100296-v2

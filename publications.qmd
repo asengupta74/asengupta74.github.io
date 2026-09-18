@@ -1,0 +1,39 @@
+---
+title: "Selected Publications"
+page-layout: full
+---
+
+:::: {.publication-layout}
+
+::: {.publication-sidebar}
+
+### Sections
+
+[Research papers](#research-papers)
+
+[Popular articles](#popular-articles)
+
+[Conference proceedings](#conference-proceedings)
+
+[Technical reports](#technical-reports)
+
+[Complete INSPIRE record](https://inspirehep.net/authors/1040066)
+
+:::
+
+::: {.publication-main}
+
+This is a curated publication list. It contains all papers on my INSPIRE
+profile with **20 or fewer authors**, together with selected collaboration
+papers reflecting major milestones or direct involvement in the underlying
+analyses.
+
+For the complete publication record, including the full set of collaboration
+papers, see my
+[INSPIRE-HEP profile](https://inspirehep.net/authors/1040066).
+
+{{< include publications_body.qmd >}}
+
+:::
+
+::::
