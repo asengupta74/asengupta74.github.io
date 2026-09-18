@@ -35,18 +35,32 @@
     "text": "Papers from our work on fast inference\n\nL. Pathak, A. Reza and A. S. Sengupta, Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources.\nThe original meshfree likelihood construction.\nL. Pathak, S. Munishwar, A. Reza and A. S. Sengupta, Prompt sky localization of compact binary sources using a meshfree approximation.\nExtension to coherent network inference and rapid sky localization.\nA. Sharma, A. S. Sengupta and S. Mukherjee, Accelerated parameter estimation of supermassive black hole binaries in LISA using a meshfree approximation.\nExtension of the meshfree approach to LISA.\nA. Sharma, L. Pathak, S. Roy and A. S. Sengupta, Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation.\nExtension to richer compact-binary waveform structure, including higher modes."
   },
   {
-    "objectID": "posts/long-signal-barrier/index.html",
-    "href": "posts/long-signal-barrier/index.html",
-    "title": "Breaking the long-signal barrier in gravitational-wave inference",
+    "objectID": "posts/low-discrepancy-template-banks/index.html",
+    "href": "posts/low-discrepancy-template-banks/index.html",
+    "title": "Low-discrepancy sequences for gravitational-wave template banks",
     "section": "",
-    "text": "Paper: Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors\narXiv:2609.05375\nBinary neutron-star signals can remain in third-generation gravitational-wave detectors for hours. This creates a difficulty that is absent, or much less important, for the shorter signals usually analysed with current detectors: the Earth rotates appreciably while the signal is in band.\nThe detector antenna response therefore changes during the observation. Treating it as constant is no longer adequate.\nThe useful observation is that this time dependence is highly structured. For a ground-based interferometer in the long-wavelength approximation, the response can be decomposed into five sidereal harmonics,\n\\[\nF(t)\n=\n\\sum_{n=-2}^{2} F_n e^{i n\\Omega_\\oplus t}.\n\\]\nThis is essentially the Jaranowski-Królak-Schutz decomposition of the rotating detector response. The five terms arise from the fact that the detector tensor is a symmetric trace-free rank-two tensor and therefore transforms in the five-dimensional (l=2) representation of rotations.\nThis decomposition is useful computationally because the slow sidereal modulation can be separated from the rapidly varying intrinsic waveform. The likelihood can then be evaluated using a small number of precomputed frequency-domain objects rather than repeatedly constructing the full time-dependent detector response.\nIn our implementation, this structure is combined with an adaptive frequency representation and error-controlled relative binning. The resulting likelihood remains accurate while substantially reducing the cost of evaluating long binary-neutron-star signals.\nThe broader point is that the duration of third-generation signals need not be treated only as a computational burden. The Earth’s rotation introduces additional structure into the data, and that structure can itself be used to accelerate inference and improve localization."
+    "text": "Paper: T. Kumar and A. S. Sengupta, Stochastic template banks for GW searches using low-discrepancy sequences\narXiv:2607.18633\nTemplate-bank construction is usually formulated as a covering problem: we want a set of waveforms such that every physically relevant signal lies sufficiently close to at least one template.\nA common approach is stochastic placement. Candidate points are drawn randomly from the parameter space and retained only when they are sufficiently far from the templates already accepted.\nRandom sampling is simple, but it is not particularly uniform. It naturally produces both clusters and gaps, and many proposals are wasted in regions that have already been well covered.\nLow-discrepancy sequences provide an alternative. Sequences such as Sobol and Halton are constructed to fill a multidimensional domain more uniformly than independent random points.\nThe idea we explore is therefore straightforward: retain the usual stochastic acceptance criterion, but replace the random proposal sequence by a low-discrepancy sequence.\nThe final number of templates need not change dramatically. The more interesting quantity is the number of candidate points required to reach a given level of coverage. In our tests, low-discrepancy proposals reduce this initial sampling cost, with the improvement depending on dimension and on how the physical parameter space is mapped into the sampling coordinates.\nThis is useful because the proposal stage becomes increasingly expensive as the dimension of the intrinsic parameter space grows. The method is also easy to combine with geometric pruning and parallel template-bank construction."
   },
   {
-    "objectID": "posts/long-signal-barrier/index.html#related-papers",
-    "href": "posts/long-signal-barrier/index.html#related-papers",
-    "title": "Breaking the long-signal barrier in gravitational-wave inference",
+    "objectID": "posts/low-discrepancy-template-banks/index.html#related-papers",
+    "href": "posts/low-discrepancy-template-banks/index.html#related-papers",
+    "title": "Low-discrepancy sequences for gravitational-wave template banks",
     "section": "Related papers",
-    "text": "Related papers\n\nP. Jaranowski, A. Królak and B. F. Schutz, Data analysis of gravitational-wave signals from spinning neutron stars. I. The signal and its detection.\nThe original JKS treatment of the sidereal modulation of the detector response.\nB. Zackay, L. Dai and T. Venumadhav, Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation.\nThe relative-binning construction used to accelerate likelihood evaluation."
+    "text": "Related papers\n\nI. W. Harry, B. Allen and B. S. Sathyaprakash, A stochastic template placement algorithm for gravitational wave data analysis.\nA standard reference for stochastic template placement.\nS. Roy, A. S. Sengupta and N. Thakor, Hybrid geometric-random template placement algorithm for gravitational wave searches from compact binary coalescences.\nOur earlier work combining geometric and stochastic placement."
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Research Notes",
+    "section": "",
+    "text": "Short notes on recent work, ongoing projects, and results that may be useful to explain outside the format of a paper.\n\n\n\n\n\n\n\n\n\nBreaking the long-signal barrier in gravitational-wave inference\n\n\nUsing the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable.\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\n\n\nIndIGO-D: gravitational-wave astronomy in the decihertz band\n\n\nWhat a space-based L-shaped interferometer operating between LISA and ground-based detectors could add to gravitational-wave astronomy.\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\n\n\nLow-discrepancy sequences for gravitational-wave template banks\n\n\nReplacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences.\n\n\n\n\n\nSep 12, 2026\n\n\n\n\n\n\n\nMaking Bayesian gravitational-wave inference faster\n\n\nWhy much of the computational cost of compact-binary inference can be removed without changing the statistical problem.\n\n\n\n\n\nSep 5, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Courses and teaching material will go here."
   },
   {
     "objectID": "research.html",
@@ -98,32 +112,60 @@
     "text": "Publications\nA complete list of publications is available on INSPIRE-HEP."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "posts/long-signal-barrier/index.html",
+    "href": "posts/long-signal-barrier/index.html",
+    "title": "Breaking the long-signal barrier in gravitational-wave inference",
     "section": "",
-    "text": "Courses and teaching material will go here."
+    "text": "Paper: Fast Bayesian Inference for Long-Duration Gravitational-Wave Signals in 3G detectors\narXiv:2609.05375\nBinary neutron-star signals can remain in third-generation gravitational-wave detectors for hours. This creates a difficulty that is absent, or much less important, for the shorter signals usually analysed with current detectors: the Earth rotates appreciably while the signal is in band.\nThe detector antenna response therefore changes during the observation. Treating it as constant is no longer adequate.\nThe useful observation is that this time dependence is highly structured. For a ground-based interferometer in the long-wavelength approximation, the response can be decomposed into five sidereal harmonics,\n\\[\nF(t)\n=\n\\sum_{n=-2}^{2} F_n e^{i n\\Omega_\\oplus t}.\n\\]\nThis is essentially the Jaranowski-Królak-Schutz decomposition of the rotating detector response. The five terms arise from the fact that the detector tensor is a symmetric trace-free rank-two tensor and therefore transforms in the five-dimensional (l=2) representation of rotations.\nThis decomposition is useful computationally because the slow sidereal modulation can be separated from the rapidly varying intrinsic waveform. The likelihood can then be evaluated using a small number of precomputed frequency-domain objects rather than repeatedly constructing the full time-dependent detector response.\nIn our implementation, this structure is combined with an adaptive frequency representation and error-controlled relative binning. The resulting likelihood remains accurate while substantially reducing the cost of evaluating long binary-neutron-star signals.\nThe broader point is that the duration of third-generation signals need not be treated only as a computational burden. The Earth’s rotation introduces additional structure into the data, and that structure can itself be used to accelerate inference and improve localization."
   },
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Research Notes",
-    "section": "",
-    "text": "Short notes on recent work, ongoing projects, and results that may be useful to explain outside the format of a paper.\n\n\n\n\n\n\n\n\n\nBreaking the long-signal barrier in gravitational-wave inference\n\n\nUsing the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable.\n\n\n\n\n\nSep 18, 2026\n\n\n\n\n\n\n\nLow-discrepancy sequences for gravitational-wave template banks\n\n\nReplacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences.\n\n\n\n\n\nSep 12, 2026\n\n\n\n\n\n\n\nMaking Bayesian gravitational-wave inference faster\n\n\nWhy much of the computational cost of compact-binary inference can be removed without changing the statistical problem.\n\n\n\n\n\nSep 5, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/low-discrepancy-template-banks/index.html",
-    "href": "posts/low-discrepancy-template-banks/index.html",
-    "title": "Low-discrepancy sequences for gravitational-wave template banks",
-    "section": "",
-    "text": "Paper: T. Kumar and A. S. Sengupta, Stochastic template banks for GW searches using low-discrepancy sequences\narXiv:2607.18633\nTemplate-bank construction is usually formulated as a covering problem: we want a set of waveforms such that every physically relevant signal lies sufficiently close to at least one template.\nA common approach is stochastic placement. Candidate points are drawn randomly from the parameter space and retained only when they are sufficiently far from the templates already accepted.\nRandom sampling is simple, but it is not particularly uniform. It naturally produces both clusters and gaps, and many proposals are wasted in regions that have already been well covered.\nLow-discrepancy sequences provide an alternative. Sequences such as Sobol and Halton are constructed to fill a multidimensional domain more uniformly than independent random points.\nThe idea we explore is therefore straightforward: retain the usual stochastic acceptance criterion, but replace the random proposal sequence by a low-discrepancy sequence.\nThe final number of templates need not change dramatically. The more interesting quantity is the number of candidate points required to reach a given level of coverage. In our tests, low-discrepancy proposals reduce this initial sampling cost, with the improvement depending on dimension and on how the physical parameter space is mapped into the sampling coordinates.\nThis is useful because the proposal stage becomes increasingly expensive as the dimension of the intrinsic parameter space grows. The method is also easy to combine with geometric pruning and parallel template-bank construction."
-  },
-  {
-    "objectID": "posts/low-discrepancy-template-banks/index.html#related-papers",
-    "href": "posts/low-discrepancy-template-banks/index.html#related-papers",
-    "title": "Low-discrepancy sequences for gravitational-wave template banks",
+    "objectID": "posts/long-signal-barrier/index.html#related-papers",
+    "href": "posts/long-signal-barrier/index.html#related-papers",
+    "title": "Breaking the long-signal barrier in gravitational-wave inference",
     "section": "Related papers",
-    "text": "Related papers\n\nI. W. Harry, B. Allen and B. S. Sathyaprakash, A stochastic template placement algorithm for gravitational wave data analysis.\nA standard reference for stochastic template placement.\nS. Roy, A. S. Sengupta and N. Thakor, Hybrid geometric-random template placement algorithm for gravitational wave searches from compact binary coalescences.\nOur earlier work combining geometric and stochastic placement."
+    "text": "Related papers\n\nP. Jaranowski, A. Królak and B. F. Schutz, Data analysis of gravitational-wave signals from spinning neutron stars. I. The signal and its detection.\nThe original JKS treatment of the sidereal modulation of the detector response.\nB. Zackay, L. Dai and T. Venumadhav, Relative Binning and Fast Likelihood Evaluation for Gravitational Wave Parameter Estimation.\nThe relative-binning construction used to accelerate likelihood evaluation."
+  },
+  {
+    "objectID": "posts/indigo-d/index.html",
+    "href": "posts/indigo-d/index.html",
+    "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
+    "section": "",
+    "text": "Paper: Probing Compact Binary Coalescences in the Decihertz GW Band with IndIGO-D\nThere is a large observational gap between the millihertz band targeted by LISA and the frequencies accessible to terrestrial gravitational-wave detectors. The decihertz band, roughly (0.1)–(10) Hz, is especially interesting because many compact binaries pass through it shortly before entering the ground-based detector band.\nA stellar-mass binary observed by LISA may still be years away from merger. The same class of system observed in the decihertz band can instead be followed during the final months, days and hours before coalescence."
+  },
+  {
+    "objectID": "posts/indigo-d/index.html#the-indigo-d-concept",
+    "href": "posts/indigo-d/index.html#the-indigo-d-concept",
+    "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
+    "section": "The IndIGO-D concept",
+    "text": "The IndIGO-D concept\nIndIGO-D is a decihertz gravitational-wave observatory concept being studied within the IndIGO community.\nIn our work we consider one particular realization: three spacecraft in heliocentric orbit forming an L-shaped Michelson interferometer. Two orthogonal arms, each (1000,) long, meet at a common vertex, making the geometry conceptually similar to a terrestrial L-shaped interferometer, but placed in space.\n\n\n\n\n\nIllustration of the heliocentric motion of the three-spacecraft IndIGO-D configuration considered in our study.\nOur study is not a complete mission-design or technological-feasibility study. We take the heliocentric L-shaped geometry and an assumed detector sensitivity as inputs, calculate its time- and frequency-dependent gravitational-wave response, and ask what compact-binary astrophysics such an instrument could enable.\nThe orbital motion is important. Compact binaries can remain observable for months or years, during which the detector changes both its position and orientation. This produces amplitude, phase and Doppler modulations that carry information about the source direction."
+  },
+  {
+    "objectID": "posts/indigo-d/index.html#bridging-gravitational-wave-bands",
+    "href": "posts/indigo-d/index.html#bridging-gravitational-wave-bands",
+    "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
+    "section": "Bridging gravitational-wave bands",
+    "text": "Bridging gravitational-wave bands\nFor the sensitivity assumed in our study, a GW170817-like binary neutron star system is observable with IndIGO-D out to a horizon redshift of about\n\\[\nz \\sim 0.3.\n\\]\nSuch systems would later enter the band of terrestrial detectors, providing multiband observations of the same binary.\nThe same frequency range also gives access to binaries containing intermediate-mass black holes. Systems with total masses around \\(10^2\\)–\\(10^3\\,M_\\odot\\) occupy a region where a decihertz detector complements both LISA and terrestrial observatories."
+  },
+  {
+    "objectID": "posts/indigo-d/index.html#early-warning",
+    "href": "posts/indigo-d/index.html#early-warning",
+    "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
+    "section": "Early warning",
+    "text": "Early warning\nFor me, one of the most interesting aspects of the study is the possibility of obtaining useful sky localization well before a neutron-star merger.\nFor a simulated GW170817-like binary, using three months of IndIGO-D data, we obtain the following 90% sky-localization areas:\n\n\n\nTime before merger\n90% sky area\n\n\n\n\n1 month\n\\(21.18\\,\\mathrm{deg}^2\\)\n\n\n1 week\n\\(1.56\\,\\mathrm{deg}^2\\)\n\n\n1 day\n\\(0.39\\,\\mathrm{deg}^2\\)\n\n\n6 hours\n\\(0.27\\,\\mathrm{deg}^2\\)\n\n\n\nThe improvement comes from accumulating a long stretch of inspiral while the orbital motion of the detector continuously modulates the signal.\n\n\n\n\n\nSky localization of a GW170817-like binary at different pre-merger epochs. The time-frequency track is coloured by the accumulated signal-to-noise ratio. IndIGO-D localizes the source to about \\(21\\,\\mathrm{deg}^2\\) one month before merger, \\(1.6\\,\\mathrm{deg}^2\\) one week before merger, and below \\(0.3\\,\\mathrm{deg}^2\\) six hours before merger.\nA localization of order a square degree a week before merger changes the character of electromagnetic follow-up. Rather than reacting only after the gravitational-wave event, wide-field telescopes can know where to look while the binary is still approaching merger.\nFor comparison, in the configuration studied in the paper, the same source observed with the Einstein Telescope is localized to roughly \\(75\\,\\mathrm{deg}^2\\) six hours before merger."
+  },
+  {
+    "objectID": "posts/indigo-d/index.html#other-science-in-the-decihertz-band",
+    "href": "posts/indigo-d/index.html#other-science-in-the-decihertz-band",
+    "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
+    "section": "Other science in the decihertz band",
+    "text": "Other science in the decihertz band\nThe long low-frequency inspiral is also useful for physics that can become progressively harder to measure as binaries approach merger. Examples include residual orbital eccentricity and weak environmental effects such as perturbations from dense dark-matter distributions around intermediate-mass black holes.\nThese effects may be small instantaneously but can accumulate over the very large number of orbital cycles observed in the decihertz band.\nFor the adopted sensitivity and population assumptions, we estimate a binary-neutron-star detection rate of roughly\n\\[\n76\\text{--}767\\ \\mathrm{yr}^{-1}.\n\\]\nThe range is dominated by the uncertainty in the local BNS merger rate."
+  },
+  {
+    "objectID": "posts/indigo-d/index.html#the-broader-point",
+    "href": "posts/indigo-d/index.html#the-broader-point",
+    "title": "IndIGO-D: gravitational-wave astronomy in the decihertz band",
+    "section": "The broader point",
+    "text": "The broader point\nThe attraction of the decihertz band is that it connects different parts of gravitational-wave astronomy.\nLISA probes the slow, early evolution of many compact binaries. Ground-based detectors observe their final inspiral and merger. A decihertz observatory occupies the region in between, where binaries evolve rapidly enough to provide practical early warnings but slowly enough to accumulate months of precise phase and directional information.\nIndIGO-D is one possible realization of such an observatory. Our study is primarily an exploration of the astrophysics that becomes possible if the required sensitivity can be achieved."
   },
   {
     "objectID": "index.html",

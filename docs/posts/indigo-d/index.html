@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-18">
+<meta name="description" content="What a space-based L-shaped interferometer operating between LISA and ground-based detectors could add to gravitational-wave astronomy.">
 
-<title>Research Notes – Anand Sengupta</title>
+<title>IndIGO-D: gravitational-wave astronomy in the decihertz band – Anand Sengupta</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9d96f532d65220ca877c0304385df42f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-9d96f532d65220ca877c0304385df42f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -135,7 +106,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -145,7 +116,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Anand Sengupta</span>
     </a>
   </div>
@@ -156,23 +127,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./notes.html" aria-current="page"> 
+    <a class="nav-link" href="../../notes.html"> 
 <span class="menu-text">Research Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./students.html"> 
+    <a class="nav-link" href="../../students.html"> 
 <span class="menu-text">Students</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -198,14 +169,31 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Notes</h1>
-</div>
+<h1 class="title">IndIGO-D: gravitational-wave astronomy in the decihertz band</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">decihertz</div>
+    <div class="quarto-category">multiband astronomy</div>
+    <div class="quarto-category">space detectors</div>
+    <div class="quarto-category">gravitational waves</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    What a space-based L-shaped interferometer operating between LISA and ground-based detectors could add to gravitational-wave astronomy.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 18, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -215,84 +203,91 @@ window.Quarto = {
 </header>
 
 
-<p>Short notes on recent work, ongoing projects, and results that may be useful to explain outside the format of a paper.</p>
+<p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2601.06956">Probing Compact Binary Coalescences in the Decihertz GW Band with IndIGO-D</a></p>
+<p>There is a large observational gap between the millihertz band targeted by LISA and the frequencies accessible to terrestrial gravitational-wave detectors. The decihertz band, roughly (0.1)–(10) Hz, is especially interesting because many compact binaries pass through it shortly before entering the ground-based detector band.</p>
+<p>A stellar-mass binary observed by LISA may still be years away from merger. The same class of system observed in the decihertz band can instead be followed during the final months, days and hours before coalescence.</p>
+<section id="the-indigo-d-concept" class="level2">
+<h2 class="anchored" data-anchor-id="the-indigo-d-concept">The IndIGO-D concept</h2>
+<p>IndIGO-D is a decihertz gravitational-wave observatory concept being studied within the IndIGO community.</p>
+<p>In our work we consider one particular realization: three spacecraft in heliocentric orbit forming an L-shaped Michelson interferometer. Two orthogonal arms, each (1000,) long, meet at a common vertex, making the geometry conceptually similar to a terrestrial L-shaped interferometer, but placed in space.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/indigo_orbit.gif" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p><em>Illustration of the heliocentric motion of the three-spacecraft IndIGO-D configuration considered in our study.</em></p>
+<p>Our study is not a complete mission-design or technological-feasibility study. We take the heliocentric L-shaped geometry and an assumed detector sensitivity as inputs, calculate its time- and frequency-dependent gravitational-wave response, and ask what compact-binary astrophysics such an instrument could enable.</p>
+<p>The orbital motion is important. Compact binaries can remain observable for months or years, during which the detector changes both its position and orientation. This produces amplitude, phase and Doppler modulations that carry information about the source direction.</p>
+</section>
+<section id="bridging-gravitational-wave-bands" class="level2">
+<h2 class="anchored" data-anchor-id="bridging-gravitational-wave-bands">Bridging gravitational-wave bands</h2>
+<p>For the sensitivity assumed in our study, a GW170817-like binary neutron star system is observable with IndIGO-D out to a horizon redshift of about</p>
+<p><span class="math display">\[
+z \sim 0.3.
+\]</span></p>
+<p>Such systems would later enter the band of terrestrial detectors, providing multiband observations of the same binary.</p>
+<p>The same frequency range also gives access to binaries containing intermediate-mass black holes. Systems with total masses around <span class="math inline">\(10^2\)</span>–<span class="math inline">\(10^3\,M_\odot\)</span> occupy a region where a decihertz detector complements both LISA and terrestrial observatories.</p>
+</section>
+<section id="early-warning" class="level2">
+<h2 class="anchored" data-anchor-id="early-warning">Early warning</h2>
+<p>For me, one of the most interesting aspects of the study is the possibility of obtaining useful sky localization well before a neutron-star merger.</p>
+<p>For a simulated GW170817-like binary, using three months of IndIGO-D data, we obtain the following 90% sky-localization areas:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Time before merger</th>
+<th style="text-align: right;">90% sky area</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1 month</td>
+<td style="text-align: right;"><span class="math inline">\(21.18\,\mathrm{deg}^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 week</td>
+<td style="text-align: right;"><span class="math inline">\(1.56\,\mathrm{deg}^2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1 day</td>
+<td style="text-align: right;"><span class="math inline">\(0.39\,\mathrm{deg}^2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6 hours</td>
+<td style="text-align: right;"><span class="math inline">\(0.27\,\mathrm{deg}^2\)</span></td>
+</tr>
+</tbody>
+</table>
+<p>The improvement comes from accumulating a long stretch of inspiral while the orbital motion of the detector continuously modulates the signal.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/skymaps_tf_track.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p><em>Sky localization of a GW170817-like binary at different pre-merger epochs. The time-frequency track is coloured by the accumulated signal-to-noise ratio. IndIGO-D localizes the source to about <span class="math inline">\(21\,\mathrm{deg}^2\)</span> one month before merger, <span class="math inline">\(1.6\,\mathrm{deg}^2\)</span> one week before merger, and below <span class="math inline">\(0.3\,\mathrm{deg}^2\)</span> six hours before merger.</em></p>
+<p>A localization of order a square degree a week before merger changes the character of electromagnetic follow-up. Rather than reacting only after the gravitational-wave event, wide-field telescopes can know where to look while the binary is still approaching merger.</p>
+<p>For comparison, in the configuration studied in the paper, the same source observed with the Einstein Telescope is localized to roughly <span class="math inline">\(75\,\mathrm{deg}^2\)</span> six hours before merger.</p>
+</section>
+<section id="other-science-in-the-decihertz-band" class="level2">
+<h2 class="anchored" data-anchor-id="other-science-in-the-decihertz-band">Other science in the decihertz band</h2>
+<p>The long low-frequency inspiral is also useful for physics that can become progressively harder to measure as binaries approach merger. Examples include residual orbital eccentricity and weak environmental effects such as perturbations from dense dark-matter distributions around intermediate-mass black holes.</p>
+<p>These effects may be small instantaneously but can accumulate over the very large number of orbital cycles observed in the decihertz band.</p>
+<p>For the adopted sensitivity and population assumptions, we estimate a binary-neutron-star detection rate of roughly</p>
+<p><span class="math display">\[
+76\text{--}767\ \mathrm{yr}^{-1}.
+\]</span></p>
+<p>The range is dominated by the uncertainty in the local BNS merger rate.</p>
+</section>
+<section id="the-broader-point" class="level2">
+<h2 class="anchored" data-anchor-id="the-broader-point">The broader point</h2>
+<p>The attraction of the decihertz band is that it connects different parts of gravitational-wave astronomy.</p>
+<p>LISA probes the slow, early evolution of many compact binaries. Ground-based detectors observe their final inspiral and merger. A decihertz observatory occupies the region in between, where binaries evolve rapidly enough to provide practical early warnings but slowly enough to accumulate months of precise phase and directional information.</p>
+<p>IndIGO-D is one possible realization of such an observatory. Our study is primarily an exploration of the astrophysics that becomes possible if the required sensitivity can be achieved.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cGFyYW1ldGVyJTIwZXN0aW1hdGlvbiUyQ3RoaXJkLWdlbmVyYXRpb24lMjBkZXRlY3RvcnMlMkNncmF2aXRhdGlvbmFsJTIwd2F2ZXM=" data-listing-date-sort="1789669800000" data-listing-file-modified-sort="1789708237191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="325">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/long-signal-barrier/index.html" class="no-external">Breaking the long-signal barrier in gravitational-wave inference</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/long-signal-barrier/index.html" class="no-external">
-<p>Using the sidereal structure of the detector response to make inference for long third-generation signals computationally tractable.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/long-signal-barrier/index.html" class="no-external">
-<div class="listing-date">
-Sep 18, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZGVjaWhlcnR6JTJDbXVsdGliYW5kJTIwYXN0cm9ub215JTJDc3BhY2UlMjBkZXRlY3RvcnMlMkNncmF2aXRhdGlvbmFsJTIwd2F2ZXM=" data-listing-date-sort="1789669800000" data-listing-file-modified-sort="1789713432185" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="644">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/indigo-d/index.html" class="no-external">IndIGO-D: gravitational-wave astronomy in the decihertz band</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/indigo-d/index.html" class="no-external">
-<p>What a space-based L-shaped interferometer operating between LISA and ground-based detectors could add to gravitational-wave astronomy.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/indigo-d/index.html" class="no-external">
-<div class="listing-date">
-Sep 18, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="c2VhcmNoZXMlMkN0ZW1wbGF0ZSUyMGJhbmtzJTJDbnVtZXJpY2FsJTIwbWV0aG9kcw==" data-listing-date-sort="1789151400000" data-listing-file-modified-sort="1789705204521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/low-discrepancy-template-banks/index.html" class="no-external">Low-discrepancy sequences for gravitational-wave template banks</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/low-discrepancy-template-banks/index.html" class="no-external">
-<p>Replacing purely random proposals in stochastic template placement by more uniform low-discrepancy sequences.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/low-discrepancy-template-banks/index.html" class="no-external">
-<div class="listing-date">
-Sep 12, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="cGFyYW1ldGVyJTIwZXN0aW1hdGlvbiUyQ0JheWVzaWFuJTIwaW5mZXJlbmNlJTJDY29tcHV0YXRpb25hbCUyMG1ldGhvZHM=" data-listing-date-sort="1788546600000" data-listing-file-modified-sort="1789705213026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="326">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/fast-bayesian-inference/index.html" class="no-external">Making Bayesian gravitational-wave inference faster</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/fast-bayesian-inference/index.html" class="no-external">
-<p>Why much of the computational cost of compact-binary inference can be removed without changing the statistical problem.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/fast-bayesian-inference/index.html" class="no-external">
-<div class="listing-date">
-Sep 5, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
