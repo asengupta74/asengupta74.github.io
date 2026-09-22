@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://asengupta.in/posts/fast-bayesian-inference/index.html</loc>
-    <lastmod>2026-09-21T07:54:00.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/posts/long-signal-barrier/index.html</loc>
-    <lastmod>2026-09-21T07:54:00.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/students.html</loc>
-    <lastmod>2026-09-21T07:54:00.905Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/research.html</loc>
-    <lastmod>2026-09-21T07:54:00.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/publications_body.html</loc>
-    <lastmod>2026-09-21T07:54:00.904Z</lastmod>
+    <loc>https://asengupta.in/publications.html</loc>
+    <lastmod>2026-09-22T04:04:49.188Z</lastmod>
   </url>
   <url>
     <loc>https://asengupta.in/index.html</loc>
-    <lastmod>2026-09-21T07:54:00.889Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/publications.html</loc>
-    <lastmod>2026-09-21T07:54:00.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/teaching.html</loc>
-    <lastmod>2026-09-21T07:54:00.905Z</lastmod>
-  </url>
-  <url>
-    <loc>https://asengupta.in/contact.html</loc>
-    <lastmod>2026-09-21T07:54:00.864Z</lastmod>
+    <lastmod>2026-09-18T10:30:01.000Z</lastmod>
   </url>
   <url>
     <loc>https://asengupta.in/posts/indigo-d/index.html</loc>
-    <lastmod>2026-09-21T07:54:00.901Z</lastmod>
+    <lastmod>2026-09-18T13:31:11.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://asengupta.in/posts/long-signal-barrier/index.html</loc>
+    <lastmod>2026-09-18T06:47:05.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://asengupta.in/research.html</loc>
+    <lastmod>2026-09-18T04:16:24.251Z</lastmod>
+  </url>
+  <url>
+    <loc>https://asengupta.in/teaching.html</loc>
+    <lastmod>2026-09-18T04:11:50.362Z</lastmod>
+  </url>
+  <url>
+    <loc>https://asengupta.in/contact.html</loc>
+    <lastmod>2026-09-18T10:30:01.000Z</lastmod>
   </url>
   <url>
     <loc>https://asengupta.in/posts/low-discrepancy-template-banks/index.html</loc>
-    <lastmod>2026-09-21T07:54:00.904Z</lastmod>
+    <lastmod>2026-09-18T06:47:05.497Z</lastmod>
+  </url>
+  <url>
+    <loc>https://asengupta.in/posts/fast-bayesian-inference/index.html</loc>
+    <lastmod>2026-09-18T06:47:05.497Z</lastmod>
+  </url>
+  <url>
+    <loc>https://asengupta.in/students.html</loc>
+    <lastmod>2026-09-18T06:06:35.306Z</lastmod>
   </url>
 </urlset>

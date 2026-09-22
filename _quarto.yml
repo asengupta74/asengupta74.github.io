@@ -48,6 +48,7 @@ website:
 
 format:
   html:
+    canonical-url: true
     theme: flatly
     css: styles.css
     toc: false

@@ -32,7 +32,7 @@ For the complete publication record, including the full set of collaboration
 papers, see my
 [INSPIRE-HEP profile](https://inspirehep.net/authors/1040066).
 
-{{< include publications_body.qmd >}}
+{{< include _publications_body.qmd >}}
 
 :::
 

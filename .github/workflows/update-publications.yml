@@ -38,7 +38,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add publications_body.qmd docs
+          git add _publications_body.qmd docs
 
           if git diff --cached --quiet; then
             echo "No publication changes."

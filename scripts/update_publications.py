@@ -18,7 +18,7 @@ POPULAR_FILE = Path("popular_articles.json")
 PROCEEDINGS_FILE = Path("conference_proceedings.json")
 REPORTS_FILE = Path("technical_reports.json")
 
-OUTPUT_FILE = Path("publications_body.qmd")
+OUTPUT_FILE = Path("_publications_body.qmd")
 
 
 def load_json(path):
