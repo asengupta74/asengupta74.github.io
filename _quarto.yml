@@ -4,6 +4,8 @@ project:
   resources:
     - CNAME
 
+  post-render:
+    - python3 scripts/fix_sitemap.py
 website:
   site-url: "https://asengupta.in"
   title: "Anand Sengupta"
