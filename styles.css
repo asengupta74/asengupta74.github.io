@@ -349,3 +349,46 @@
     margin-bottom: 2rem;
   }
 }
+
+
+/* Student profile photographs */
+
+.student-photo {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  float: right;
+  margin: 0 0 1rem 1.25rem;
+  display: block;
+}
+.student-photo img {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .student-photo,
+  .student-photo img {
+    float: none;
+    margin: 0 0 1rem 0;
+  }
+}
+
+
+.student-photo-soumen img {
+  object-position: center 28%;
+}
+
+/* Soumen: bias circular crop upward to keep the full head visible */
+img.student-photo-soumen,
+.student-photo-soumen img {
+  object-position: 50% 18% !important;
+}

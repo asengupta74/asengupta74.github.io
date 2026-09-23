@@ -41,6 +41,8 @@ page-layout: full
 
 ### Divya Tahelyani
 
+![](images/phd_students/Divya-Tahelyani.webp){.student-photo fig-alt="Divya Tahelyani"}
+
 **PhD thesis submitted, August 2026 · SRF, IIT Gandhinagar**
 
 **Academic background.** MSc, Charotar University of Science and Technology.
@@ -67,6 +69,8 @@ Recent work includes:
 ::: {.student-entry #vishnu}
 
 ### Vishnuprathap K. P.
+
+![](images/phd_students/vishnuprathap.jpg){.student-photo fig-alt="Vishnuprathap K. P."}
 
 **PhD student, IIT Gandhinagar, 2025–present**
 
@@ -122,6 +126,8 @@ Her doctoral research is in gravitational-wave physics.
 
 ### Ravi Kesharwani
 
+![](images/phd_students/Ravi-Kesharwani-2.webp){.student-photo fig-alt="Ravi Kesharwani"}
+
 **Continuing Doctoral Programme (CDP) candidate, IIT Gandhinagar, 2026–present**
 
 **Academic background.** Studied at VIIT Pune, 2011–2015.
@@ -148,6 +154,8 @@ instrumentation with gravitational-wave physics.
 ::: {.student-entry #soumen}
 
 ### Soumen Roy
+
+![](images/phd_students/soumen_roy.jpeg){.student-photo .student-photo-soumen fig-alt="Soumen Roy"}
 
 **PhD in Physics, IIT Gandhinagar, 2014–2020**
 
@@ -187,6 +195,8 @@ Selected later work:
 
 ### Amit Reza
 
+![](images/phd_students/amit_reza.jpg){.student-photo fig-alt="Amit Reza"}
+
 **PhD in Computational Science, IIT Gandhinagar, 2014–2021**
 
 **Academic background.** M.Tech., MANIT Bhopal.
@@ -220,6 +230,8 @@ Representative work:
 ::: {.student-entry #lalit}
 
 ### Lalit Pathak
+
+![](images/phd_students/Lalit-Pathak-2.webp){.student-photo fig-alt="Lalit Pathak"}
 
 **PhD, IIT Gandhinagar, 2018–2024**
 
@@ -257,6 +269,8 @@ Representative work:
 ::: {.student-entry #abhishek}
 
 ### Abhishek Sharma
+
+![](images/phd_students/abhishek_sharma.jpg){.student-photo fig-alt="Abhishek Sharma"}
 
 **PhD, IIT Gandhinagar, 2021–2025**
 
