@@ -2,62 +2,141 @@
 title: "Research"
 ---
 
-My research is in gravitational-wave physics, with an emphasis on
-data-analysis methods for compact-binary signals. Much of my current work
-is motivated by the computational and conceptual challenges posed by
-next-generation gravitational-wave detectors.
+My research is in gravitational-wave physics, with an emphasis on methods for
+detecting and interpreting compact-binary signals. A recurring theme is how to
+preserve the physical structure of the waveform and detector response while
+making searches and Bayesian inference computationally tractable. Much of my
+current work is motivated by the long signals, large detector networks, and
+higher event rates expected in next-generation gravitational-wave observatories.
 
-## Fast gravitational-wave inference
 
-Bayesian parameter estimation for compact binaries is computationally
-expensive, particularly for long-duration signals and large detector
-networks. I work on methods that reduce the cost of likelihood evaluation
-while retaining the structure of the underlying waveform and detector
-response.
+## <i class="bi bi-speedometer2 research-icon"></i> Fast gravitational-wave inference
 
-Current work includes fast likelihood evaluation using reduced frequency
-representations, relative binning, meshfree interpolation, and methods
-adapted to the long signals expected in third-generation detectors.
+::: {.research-theme}
 
-## Long-duration signals and next-generation detectors
+::: {.research-copy}
+Bayesian parameter estimation for compact binaries is computationally expensive,
+particularly for long-duration signals and large detector networks. I develop
+methods that reduce the cost of likelihood evaluation while retaining the
+relevant structure of the waveform and detector response.
 
-Binary neutron-star signals may remain in third-generation detectors for
-hours. Over these timescales the rotation of the Earth changes the detector
-response and cannot be treated as a small correction.
+Current work includes relative binning, reduced frequency representations,
+meshfree interpolation, and fast-likelihood methods designed for present and
+next-generation detectors.
+:::
 
-I am interested in exploiting the structure of this time dependence rather
-than treating it as an additional numerical complication. This includes
-sidereal decompositions of the detector response, fast parameter estimation,
-sky localization, and the role of future detector networks including
-LIGO-India, Einstein Telescope, and Cosmic Explorer.
+::: {.research-figure}
+![](images/research/fast-pe-meshfree.png){fig-alt="Comparison of binary-neutron-star posteriors obtained using meshfree likelihood interpolation and direct PyCBC inference"}
 
-## Searches and template banks
+<span class="research-caption">
+Meshfree likelihood interpolation reproduces the posterior obtained from direct likelihood evaluation.
+</span>
+:::
 
-Matched-filter searches for compact binaries require template banks that
-cover high-dimensional waveform parameter spaces efficiently.
+:::
 
-My work in this area includes stochastic template placement, geometric
-methods based on the waveform metric, and the use of low-discrepancy
-sequences such as Sobol and Halton sequences to improve the efficiency and
-uniformity of template-bank construction.
 
-## Tests of general relativity
+## <i class="bi bi-globe2 research-icon"></i> Long-duration signals and next-generation detectors
 
+::: {.research-theme .research-theme-reverse}
+
+::: {.research-copy}
+Binary neutron-star signals can remain in third-generation detectors for hours.
+Over these timescales, the rotation of the Earth changes the detector response
+appreciably and cannot be treated as a small correction.
+
+I am interested in exploiting the resulting sidereal structure rather than
+treating it simply as an additional numerical complication. This includes fast
+parameter estimation, sky localization, and the role of future detector
+networks involving LIGO-India, Einstein Telescope, and Cosmic Explorer.
+:::
+
+::: {.research-figure}
+![](images/research/long-signal-speedup.png){fig-alt="Computational speed-up for likelihood evaluation of long-duration gravitational-wave signals"}
+
+<span class="research-caption">
+Fast likelihood evaluation for long-duration signals in third-generation detectors.
+</span>
+:::
+
+:::
+
+
+## <i class="bi bi-grid-3x3-gap research-icon"></i> Searches and template banks
+
+::: {.research-theme}
+
+::: {.research-copy}
+Matched-filter searches for compact binaries require discrete template banks
+that cover high-dimensional waveform parameter spaces efficiently.
+
+My work in this area includes stochastic and geometric template placement,
+methods based on the waveform metric, and the use of low-discrepancy sequences
+such as Sobol and Halton sequences to improve the efficiency and uniformity of
+template-bank construction.
+:::
+
+::: {.research-figure}
+![](images/research/template-bank-lds.png){fig-alt="Cumulative fitting-factor distributions for stochastic gravitational-wave template banks constructed using random, Sobol, and Halton sampling"}
+
+<span class="research-caption">
+Template-bank coverage obtained with random and low-discrepancy proposal sequences.
+</span>
+:::
+
+:::
+
+
+## <i class="bi bi-bezier2 research-icon"></i> Tests of general relativity
+
+::: {.research-theme .research-theme-reverse}
+
+::: {.research-copy}
 Gravitational-wave observations provide direct tests of the dynamics of
 strong-field gravity.
 
 I work on parameterized tests of general relativity using compact-binary
-signals, including computational methods for allowing deviations from the
-general-relativistic waveform while retaining fast likelihood evaluation.
+signals, including search and inference methods that allow small departures
+from general-relativistic waveforms while retaining computationally efficient
+likelihood evaluation.
+:::
 
-## Neutron-star physics
+::: {.research-figure}
+![](images/research/non-gr-sensitivity.png){fig-alt="Sensitive distance as a function of inverse false-alarm rate for GR and non-GR gravitational-wave template banks"}
 
-Gravitational-wave observations of binary neutron stars also constrain the
-equation of state of dense nuclear matter.
+<span class="research-caption">
+Search sensitivity to signals with parameterized departures from general relativity.
+</span>
+:::
+
+:::
+
+
+## <i class="bi bi-stars research-icon"></i> Neutron-star physics
+
+::: {.research-theme}
+
+::: {.research-copy}
+Binary neutron-star observations constrain tidal interactions and the equation
+of state of dense nuclear matter.
 
 I am interested in hierarchical inference of neutron-star equation-of-state
-parameters from populations of binary neutron-star observations, and in
-understanding how the information accumulates across events.
+parameters from populations of binary-neutron-star observations, including how
+the available information accumulates across events and depends on the
+underlying source population.
+:::
+
+::: {.research-figure}
+[![](images/research/ns-radius-eos.png){fig-alt="Mass-radius posterior constraints for the neutron stars in GW170817 with representative equations of state"}](https://arxiv.org/abs/1805.11581)
+
+<span class="research-caption">
+Mass–radius constraints from GW170817. Figure from the
+[LIGO Scientific Collaboration and Virgo Collaboration, *Phys. Rev. Lett.* **121**, 161101 (2018)](https://arxiv.org/abs/1805.11581).
+</span>
+:::
+
+:::
+
 
 ## Publications
 
