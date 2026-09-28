@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Anand S. Sengupta\nAssociate Professor\nDepartment of Physics\nIndian Institute of Technology Gandhinagar\nEmail: asengupta@iitgn.ac.in\nINSPIRE-HEP · Selected Publications · Google Scholar · GitHub"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Selected Publications",
@@ -33,41 +40,6 @@
     "title": "Selected Publications",
     "section": "",
     "text": "LIGO-India: Proposal of the Consortium for Indian Initiative in Gravitational-wave Observations (IndIGO)\nB. Iyer, T. Souradeep, C. S. Unnikrishnan, S. Dhurandhar, S. Raja, A. Kumar, Anand S. Sengupta\n2011 · LIGO-M1100296-v2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Anand Sengupta",
-    "section": "",
-    "text": "Associate Professor\nDepartment of Physics\nIndian Institute of Technology Gandhinagar\n\n\n\nSenior Member, LIGO Scientific Collaboration\nLSC Council Member\n\n\n\nEmail\nINSPIRE-HEP\nSelected Publications\nGoogle Scholar\nORCID\nGitHub\n\n\n\n\n\nIndian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks.\nI have been continuously associated with the LIGO Scientific Collaboration since 2001, initially as a student member and, since 2010, as a Senior Member. My early work in the collaboration included compact-binary searches and contributions to the LIGO Algorithm Library (LAL) and LALApps software infrastructure. I was part of what was then the Inspiral Upper Limits Group (IUL Group), which subsequently evolved into the Compact Binary Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the LIGO Scientific Collaboration.\n\n\n\nCurrent themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page.\n\n\n\nShort writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster\n\n\n\n\nMy complete publication list is available on INSPIRE-HEP."
-  },
-  {
-    "objectID": "index.html#associate-professor-of-physics",
-    "href": "index.html#associate-professor-of-physics",
-    "title": "Anand Sengupta",
-    "section": "",
-    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks.\nI have been continuously associated with the LIGO Scientific Collaboration since 2001, initially as a student member and, since 2010, as a Senior Member. My early work in the collaboration included compact-binary searches and contributions to the LIGO Algorithm Library (LAL) and LALApps software infrastructure. I was part of what was then the Inspiral Upper Limits Group (IUL Group), which subsequently evolved into the Compact Binary Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the LIGO Scientific Collaboration."
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Anand Sengupta",
-    "section": "",
-    "text": "Current themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page."
-  },
-  {
-    "objectID": "index.html#research-notes",
-    "href": "index.html#research-notes",
-    "title": "Anand Sengupta",
-    "section": "",
-    "text": "Short writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster"
-  },
-  {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "Anand Sengupta",
-    "section": "",
-    "text": "My complete publication list is available on INSPIRE-HEP."
   },
   {
     "objectID": "posts/indigo-d/index.html",
@@ -136,6 +108,93 @@
     ]
   },
   {
+    "objectID": "posts/low-discrepancy-template-banks/index.html",
+    "href": "posts/low-discrepancy-template-banks/index.html",
+    "title": "Low-discrepancy sequences for gravitational-wave template banks",
+    "section": "",
+    "text": "Paper: T. Kumar and A. S. Sengupta, Stochastic template banks for GW searches using low-discrepancy sequences\narXiv:2607.18633\nTemplate-bank construction is usually formulated as a covering problem: we want a set of waveforms such that every physically relevant signal lies sufficiently close to at least one template.\nA common approach is stochastic placement. Candidate points are drawn randomly from the parameter space and retained only when they are sufficiently far from the templates already accepted.\nRandom sampling is simple, but it is not particularly uniform. It naturally produces both clusters and gaps, and many proposals are wasted in regions that have already been well covered.\nLow-discrepancy sequences provide an alternative. Sequences such as Sobol and Halton are constructed to fill a multidimensional domain more uniformly than independent random points.\nThe idea we explore is therefore straightforward: retain the usual stochastic acceptance criterion, but replace the random proposal sequence by a low-discrepancy sequence.\nThe final number of templates need not change dramatically. The more interesting quantity is the number of candidate points required to reach a given level of coverage. In our tests, low-discrepancy proposals reduce this initial sampling cost, with the improvement depending on dimension and on how the physical parameter space is mapped into the sampling coordinates.\nThis is useful because the proposal stage becomes increasingly expensive as the dimension of the intrinsic parameter space grows. The method is also easy to combine with geometric pruning and parallel template-bank construction.",
+    "crumbs": [
+      "Home",
+      "Earlier notes",
+      "2. Low-discrepancy template banks — 12 Sep 2026"
+    ]
+  },
+  {
+    "objectID": "posts/low-discrepancy-template-banks/index.html#related-papers",
+    "href": "posts/low-discrepancy-template-banks/index.html#related-papers",
+    "title": "Low-discrepancy sequences for gravitational-wave template banks",
+    "section": "Related papers",
+    "text": "Related papers\n\nI. W. Harry, B. Allen and B. S. Sathyaprakash, A stochastic template placement algorithm for gravitational wave data analysis.\nA standard reference for stochastic template placement.\nS. Roy, A. S. Sengupta and N. Thakor, Hybrid geometric-random template placement algorithm for gravitational wave searches from compact binary coalescences.\nOur earlier work combining geometric and stochastic placement.",
+    "crumbs": [
+      "Home",
+      "Earlier notes",
+      "2. Low-discrepancy template banks — 12 Sep 2026"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Anand Sengupta",
+    "section": "",
+    "text": "Associate Professor\nDepartment of Physics\nIndian Institute of Technology Gandhinagar\n\n\n\nSenior Member, LIGO Scientific Collaboration\nLSC Council Member\n\n\n\nEmail\nINSPIRE-HEP\nSelected Publications\nGoogle Scholar\nORCID\nGitHub\n\n\n\n\n\nIndian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks.\nI have been continuously associated with the LIGO Scientific Collaboration since 2001, initially as a student member and, since 2010, as a Senior Member. My early work in the collaboration included compact-binary searches and contributions to the LIGO Algorithm Library (LAL) and LALApps software infrastructure. I was part of what was then the Inspiral Upper Limits Group (IUL Group), which subsequently evolved into the Compact Binary Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the LIGO Scientific Collaboration.\n\n\n\nCurrent themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page.\n\n\n\nShort writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster\n\n\n\n\nMy complete publication list is available on INSPIRE-HEP."
+  },
+  {
+    "objectID": "index.html#associate-professor-of-physics",
+    "href": "index.html#associate-professor-of-physics",
+    "title": "Anand Sengupta",
+    "section": "",
+    "text": "Indian Institute of Technology Gandhinagar\nI work in gravitational-wave physics, with interests in gravitational-wave data analysis, Bayesian parameter estimation, template-bank construction, tests of general relativity, and next-generation gravitational-wave detectors.\nMy research focuses on methods for extracting astrophysical and fundamental-physics information from gravitational-wave observations, particularly for compact binaries and future detector networks.\nI have been continuously associated with the LIGO Scientific Collaboration since 2001, initially as a student member and, since 2010, as a Senior Member. My early work in the collaboration included compact-binary searches and contributions to the LIGO Algorithm Library (LAL) and LALApps software infrastructure. I was part of what was then the Inspiral Upper Limits Group (IUL Group), which subsequently evolved into the Compact Binary Coalescence (CBC) Group. I currently serve as an LSC Council Member and am a Senior Member of the LIGO Scientific Collaboration."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Anand Sengupta",
+    "section": "",
+    "text": "Current themes include:\n\nFast gravitational-wave inference\nLong-duration signals in third-generation detectors\nTemplate banks and search methods\nTests of general relativity\nNeutron-star equation-of-state inference\n\nA more detailed overview is available on the Research page."
+  },
+  {
+    "objectID": "index.html#research-notes",
+    "href": "index.html#research-notes",
+    "title": "Anand Sengupta",
+    "section": "",
+    "text": "Short writeups on recent work are collected under Research Notes.\nRecent topics include:\n\nBreaking the long-signal barrier in gravitational-wave inference\nLow-discrepancy sequences for gravitational-wave template banks\nMaking Bayesian gravitational-wave inference faster"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Anand Sengupta",
+    "section": "",
+    "text": "My complete publication list is available on INSPIRE-HEP."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Courses and teaching material will go here."
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "Students",
+    "section": "",
+    "text": "Divya Tahelyani\nVishnuprathap K. P.\nNandini Nair\nAayushi Kotecha\nRavi Kesharwani\n\n\n\nSoumen Roy\nAmit Reza\nLalit Pathak\nAbhishek Sharma\n\n\n\n\n\n\n\n\n\nPhD thesis submitted, August 2026 · SRF, IIT Gandhinagar\nAcademic background. MSc, Charotar University of Science and Technology.\nDivya joined the PhD programme at IIT Gandhinagar in 2022 and submitted her doctoral thesis in August 2026. She is currently continuing at IIT Gandhinagar as a Senior Research Fellow.\nHer research focuses on gravitational-wave astrophysics, including multiband observations, decihertz gravitational-wave astronomy, and the use of gravitational waves to probe dark-matter environments.\nRecent work includes:\n\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\nProbing dark matter halo profiles with multiband observations of gravitational waves\n\nLinkedIn\n\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2025–present\nAcademic background. B.Tech. in Engineering Physics, NIT Calicut.\nVishnuprathap joined the PhD programme in Physics at IIT Gandhinagar in 2025. He completed his B.Tech. in Engineering Physics from NIT Calicut.\nHis doctoral research is in gravitational-wave astronomy.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, University of Delhi.\nNandini joined the PhD programme in August 2026 after completing her MSc in Physics from the University of Delhi.\nHer doctoral research is in gravitational-wave physics.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, Savitribai Phule Pune University; recipient of the INSPIRE Scholarship.\nAayushi joined the PhD programme in August 2026. She completed her MSc in Physics from Savitribai Phule Pune University and was a recipient of the INSPIRE Scholarship.\nHer doctoral research is in gravitational-wave physics.\nLinkedIn\n\n\n\n\n\n\n\nContinuing Doctoral Programme (CDP) candidate, IIT Gandhinagar, 2026–present\nAcademic background. Studied at VIIT Pune, 2011–2015.\nRavi is a Scientific/Technical Officer at IUCAA and works with the LIGO-India instrumentation programme. He is also a member of the LIGO Scientific Collaboration through IUCAA.\nBefore joining the LIGO instrumentation effort, Ravi worked on the Solar Ultraviolet Imaging Telescope (SUIT) aboard the Aditya-L1 mission, with a particular background in electro-optics and scientific instrumentation.\nHe joined the Continuing Doctoral Programme (CDP) at IIT Gandhinagar in January 2026. His doctoral work connects his experience in gravitational-wave instrumentation with gravitational-wave physics.\nLinkedIn\n\n\n\n\n\n\n\n\n\nPhD in Physics, IIT Gandhinagar, 2014–2020\nAcademic background. MSc, University of Calcutta.\nSoumen’s doctoral research at IIT Gandhinagar focused on gravitational-wave searches, template-bank construction, and the physics of compact-binary inspirals.\nAfter completing his PhD, he was a Postdoctoral Research Fellow at Nikhef, Amsterdam, from December 2020 to August 2024. Since November 2024 he has been a Postdoctoral Researcher at UCLouvain, Belgium.\nPost-IITGN research. His subsequent work has included compact-binary environments, tests of gravity with eccentric systems, and environmental effects such as line-of-sight acceleration.\nRepresentative work from his time at IIT Gandhinagar:\n\nUnveiling the spectrum of inspiralling binary black holes\nEffectual template banks for upcoming compact-binary searches in Advanced LIGO and Virgo data\nHybrid geometric-random template-placement algorithm for gravitational-wave searches\n\nSelected later work:\n\nCompact binary coalescences in dense gaseous environments can pose as ones in vacuum\nTesting modified gravity with the eccentric neutron star-black hole merger GW200105\nLine-of-sight acceleration in compact binaries with higher harmonics and eccentricity\n\nLinkedIn\n\n\n\n\n\n\n\nPhD in Computational Science, IIT Gandhinagar, 2014–2021\nAcademic background. M.Tech., MANIT Bhopal.\nAmit worked on computational methods for gravitational-wave searches, including dimensionality reduction and efficient reconstruction of matched-filter statistics.\nHe subsequently held a postdoctoral position at Nikhef and is currently a Scientist at the Austrian Academy of Sciences in Graz.\nPost-IITGN research. Amit has moved primarily into machine learning for astrophysics and space science. His recent work includes neural-network models for exoplanet atmospheres and climate, machine-learning classification of space-debris light curves, and graph neural networks, alongside continued connections with gravitational-wave data analysis.\nCurrent research profile\nRepresentative work:\n\nRandom projections in gravitational-wave searches from compact binaries II\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2018–2024\nAcademic background. Department of Physics and Astrophysics, University of Delhi.\nLalit’s doctoral work developed fast meshfree methods for gravitational-wave parameter estimation and source localization. This included fast likelihood evaluation, network sky localization, and interpolation of numerical-relativity surrogate waveforms.\nAfter IIT Gandhinagar he was at TIFR Mumbai during 2024–2025 and is currently at IUCAA, Pune.\nPost-IITGN research. Lalit has continued work on rapid gravitational-wave inference while also moving into compact-binary astrophysics. One recent direction concerns environmental effects on observed signals, including line-of-sight acceleration from a possible tertiary companion and its degeneracy with orbital eccentricity.\nSee On the Presence of a Tertiary Compact Object in GW190814.\nRepresentative work:\n\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\nPrompt sky localization of compact binary sources using a meshfree approximation\nFast and faithful interpolation of numerical-relativity surrogate waveforms using a meshfree approximation\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2021–2025\nAcademic background. Jamia Millia Islamia; university gold medallist.\nAbhishek worked on gravitational-wave inference across ground-based, space-based, and decihertz detectors. His doctoral work included template banks for non-standard compact-binary signals, accelerated parameter estimation for LISA sources, and multiband gravitational-wave astronomy.\nHe is currently a postdoctoral researcher at IUCAA, Pune.\nPost-IITGN research. Abhishek has continued developing fast gravitational-wave inference methods while extending his work toward space-based, decihertz, and multiband gravitational-wave astronomy.\nRecent examples include Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation and IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band.\nRepresentative work:\n\nTemplate bank to search for exotic gravitational-wave signals from astrophysical compact binaries\nAccelerated parameter estimation of supermassive black-hole binaries in LISA using a meshfree approximation\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\n\nLinkedIn"
+  },
+  {
+    "objectID": "students.html#current-and-recently-submitted-phd-students",
+    "href": "students.html#current-and-recently-submitted-phd-students",
+    "title": "Students",
+    "section": "",
+    "text": "PhD thesis submitted, August 2026 · SRF, IIT Gandhinagar\nAcademic background. MSc, Charotar University of Science and Technology.\nDivya joined the PhD programme at IIT Gandhinagar in 2022 and submitted her doctoral thesis in August 2026. She is currently continuing at IIT Gandhinagar as a Senior Research Fellow.\nHer research focuses on gravitational-wave astrophysics, including multiband observations, decihertz gravitational-wave astronomy, and the use of gravitational waves to probe dark-matter environments.\nRecent work includes:\n\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\nProbing dark matter halo profiles with multiband observations of gravitational waves\n\nLinkedIn\n\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2025–present\nAcademic background. B.Tech. in Engineering Physics, NIT Calicut.\nVishnuprathap joined the PhD programme in Physics at IIT Gandhinagar in 2025. He completed his B.Tech. in Engineering Physics from NIT Calicut.\nHis doctoral research is in gravitational-wave astronomy.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, University of Delhi.\nNandini joined the PhD programme in August 2026 after completing her MSc in Physics from the University of Delhi.\nHer doctoral research is in gravitational-wave physics.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, Savitribai Phule Pune University; recipient of the INSPIRE Scholarship.\nAayushi joined the PhD programme in August 2026. She completed her MSc in Physics from Savitribai Phule Pune University and was a recipient of the INSPIRE Scholarship.\nHer doctoral research is in gravitational-wave physics.\nLinkedIn\n\n\n\n\n\n\n\nContinuing Doctoral Programme (CDP) candidate, IIT Gandhinagar, 2026–present\nAcademic background. Studied at VIIT Pune, 2011–2015.\nRavi is a Scientific/Technical Officer at IUCAA and works with the LIGO-India instrumentation programme. He is also a member of the LIGO Scientific Collaboration through IUCAA.\nBefore joining the LIGO instrumentation effort, Ravi worked on the Solar Ultraviolet Imaging Telescope (SUIT) aboard the Aditya-L1 mission, with a particular background in electro-optics and scientific instrumentation.\nHe joined the Continuing Doctoral Programme (CDP) at IIT Gandhinagar in January 2026. His doctoral work connects his experience in gravitational-wave instrumentation with gravitational-wave physics.\nLinkedIn"
+  },
+  {
+    "objectID": "students.html#former-phd-students",
+    "href": "students.html#former-phd-students",
+    "title": "Students",
+    "section": "",
+    "text": "PhD in Physics, IIT Gandhinagar, 2014–2020\nAcademic background. MSc, University of Calcutta.\nSoumen’s doctoral research at IIT Gandhinagar focused on gravitational-wave searches, template-bank construction, and the physics of compact-binary inspirals.\nAfter completing his PhD, he was a Postdoctoral Research Fellow at Nikhef, Amsterdam, from December 2020 to August 2024. Since November 2024 he has been a Postdoctoral Researcher at UCLouvain, Belgium.\nPost-IITGN research. His subsequent work has included compact-binary environments, tests of gravity with eccentric systems, and environmental effects such as line-of-sight acceleration.\nRepresentative work from his time at IIT Gandhinagar:\n\nUnveiling the spectrum of inspiralling binary black holes\nEffectual template banks for upcoming compact-binary searches in Advanced LIGO and Virgo data\nHybrid geometric-random template-placement algorithm for gravitational-wave searches\n\nSelected later work:\n\nCompact binary coalescences in dense gaseous environments can pose as ones in vacuum\nTesting modified gravity with the eccentric neutron star-black hole merger GW200105\nLine-of-sight acceleration in compact binaries with higher harmonics and eccentricity\n\nLinkedIn\n\n\n\n\n\n\n\nPhD in Computational Science, IIT Gandhinagar, 2014–2021\nAcademic background. M.Tech., MANIT Bhopal.\nAmit worked on computational methods for gravitational-wave searches, including dimensionality reduction and efficient reconstruction of matched-filter statistics.\nHe subsequently held a postdoctoral position at Nikhef and is currently a Scientist at the Austrian Academy of Sciences in Graz.\nPost-IITGN research. Amit has moved primarily into machine learning for astrophysics and space science. His recent work includes neural-network models for exoplanet atmospheres and climate, machine-learning classification of space-debris light curves, and graph neural networks, alongside continued connections with gravitational-wave data analysis.\nCurrent research profile\nRepresentative work:\n\nRandom projections in gravitational-wave searches from compact binaries II\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2018–2024\nAcademic background. Department of Physics and Astrophysics, University of Delhi.\nLalit’s doctoral work developed fast meshfree methods for gravitational-wave parameter estimation and source localization. This included fast likelihood evaluation, network sky localization, and interpolation of numerical-relativity surrogate waveforms.\nAfter IIT Gandhinagar he was at TIFR Mumbai during 2024–2025 and is currently at IUCAA, Pune.\nPost-IITGN research. Lalit has continued work on rapid gravitational-wave inference while also moving into compact-binary astrophysics. One recent direction concerns environmental effects on observed signals, including line-of-sight acceleration from a possible tertiary companion and its degeneracy with orbital eccentricity.\nSee On the Presence of a Tertiary Compact Object in GW190814.\nRepresentative work:\n\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\nPrompt sky localization of compact binary sources using a meshfree approximation\nFast and faithful interpolation of numerical-relativity surrogate waveforms using a meshfree approximation\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2021–2025\nAcademic background. Jamia Millia Islamia; university gold medallist.\nAbhishek worked on gravitational-wave inference across ground-based, space-based, and decihertz detectors. His doctoral work included template banks for non-standard compact-binary signals, accelerated parameter estimation for LISA sources, and multiband gravitational-wave astronomy.\nHe is currently a postdoctoral researcher at IUCAA, Pune.\nPost-IITGN research. Abhishek has continued developing fast gravitational-wave inference methods while extending his work toward space-based, decihertz, and multiband gravitational-wave astronomy.\nRecent examples include Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation and IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band.\nRepresentative work:\n\nTemplate bank to search for exotic gravitational-wave signals from astrophysical compact binaries\nAccelerated parameter estimation of supermassive black-hole binaries in LISA using a meshfree approximation\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\n\nLinkedIn"
+  },
+  {
     "objectID": "posts/long-signal-barrier/index.html",
     "href": "posts/long-signal-barrier/index.html",
     "title": "Breaking the long-signal barrier in gravitational-wave inference",
@@ -157,6 +216,30 @@
       "Home",
       "Earlier notes",
       "1. Breaking the long-signal barrier — 18 Sep 2026"
+    ]
+  },
+  {
+    "objectID": "posts/fast-bayesian-inference/index.html",
+    "href": "posts/fast-bayesian-inference/index.html",
+    "title": "Making Bayesian gravitational-wave inference faster",
+    "section": "",
+    "text": "Bayesian parameter estimation for gravitational-wave signals repeatedly evaluates a likelihood over a high-dimensional parameter space. For compact binaries, the expensive part is usually not the statistical formalism itself but the repeated evaluation of waveform-dependent frequency-domain inner products.\nA large fraction of this work is redundant.\nNearby waveforms are strongly correlated, and the quantities entering the likelihood vary much more smoothly across frequency than the raw waveform phase might suggest. Fast inference methods exploit this structure rather than evaluating every likelihood on the full native frequency grid.\nSeveral complementary strategies are possible. Relative binning represents the ratio between nearby waveforms using a much coarser frequency grid. Meshfree methods interpolate quantities entering the likelihood across intrinsic parameter space. Adaptive grids place frequency samples according to the local variation of the waveform rather than at every Fourier frequency.\nThese methods are particularly important for next-generation detectors. Lowering the starting frequency from tens of hertz to a few hertz greatly increases the signal duration and the number of Fourier samples. A method that is inexpensive for a current-detector binary-neutron-star signal can otherwise become prohibitively costly.\nThe aim is therefore not to approximate the posterior after the fact, but to reorganize the likelihood calculation so that the expensive information is computed once and reused efficiently throughout the inference.",
+    "crumbs": [
+      "Home",
+      "Earlier notes",
+      "3. Fast Bayesian inference — 5 Sep 2026"
+    ]
+  },
+  {
+    "objectID": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
+    "href": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
+    "title": "Making Bayesian gravitational-wave inference faster",
+    "section": "Papers from our work on fast inference",
+    "text": "Papers from our work on fast inference\n\nL. Pathak, A. Reza and A. S. Sengupta, Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources.\nThe original meshfree likelihood construction.\nL. Pathak, S. Munishwar, A. Reza and A. S. Sengupta, Prompt sky localization of compact binary sources using a meshfree approximation.\nExtension to coherent network inference and rapid sky localization.\nA. Sharma, A. S. Sengupta and S. Mukherjee, Accelerated parameter estimation of supermassive black hole binaries in LISA using a meshfree approximation.\nExtension of the meshfree approach to LISA.\nA. Sharma, L. Pathak, S. Roy and A. S. Sengupta, Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation.\nExtension to richer compact-binary waveform structure, including higher modes.",
+    "crumbs": [
+      "Home",
+      "Earlier notes",
+      "3. Fast Bayesian inference — 5 Sep 2026"
     ]
   },
   {
@@ -207,88 +290,5 @@
     "title": "Research",
     "section": "Publications",
     "text": "Publications\nA complete list of publications is available on INSPIRE-HEP."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Courses and teaching material will go here."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Anand S. Sengupta\nAssociate Professor\nDepartment of Physics\nIndian Institute of Technology Gandhinagar\nEmail: asengupta@iitgn.ac.in\nINSPIRE-HEP · Selected Publications · Google Scholar · GitHub"
-  },
-  {
-    "objectID": "posts/low-discrepancy-template-banks/index.html",
-    "href": "posts/low-discrepancy-template-banks/index.html",
-    "title": "Low-discrepancy sequences for gravitational-wave template banks",
-    "section": "",
-    "text": "Paper: T. Kumar and A. S. Sengupta, Stochastic template banks for GW searches using low-discrepancy sequences\narXiv:2607.18633\nTemplate-bank construction is usually formulated as a covering problem: we want a set of waveforms such that every physically relevant signal lies sufficiently close to at least one template.\nA common approach is stochastic placement. Candidate points are drawn randomly from the parameter space and retained only when they are sufficiently far from the templates already accepted.\nRandom sampling is simple, but it is not particularly uniform. It naturally produces both clusters and gaps, and many proposals are wasted in regions that have already been well covered.\nLow-discrepancy sequences provide an alternative. Sequences such as Sobol and Halton are constructed to fill a multidimensional domain more uniformly than independent random points.\nThe idea we explore is therefore straightforward: retain the usual stochastic acceptance criterion, but replace the random proposal sequence by a low-discrepancy sequence.\nThe final number of templates need not change dramatically. The more interesting quantity is the number of candidate points required to reach a given level of coverage. In our tests, low-discrepancy proposals reduce this initial sampling cost, with the improvement depending on dimension and on how the physical parameter space is mapped into the sampling coordinates.\nThis is useful because the proposal stage becomes increasingly expensive as the dimension of the intrinsic parameter space grows. The method is also easy to combine with geometric pruning and parallel template-bank construction.",
-    "crumbs": [
-      "Home",
-      "Earlier notes",
-      "2. Low-discrepancy template banks — 12 Sep 2026"
-    ]
-  },
-  {
-    "objectID": "posts/low-discrepancy-template-banks/index.html#related-papers",
-    "href": "posts/low-discrepancy-template-banks/index.html#related-papers",
-    "title": "Low-discrepancy sequences for gravitational-wave template banks",
-    "section": "Related papers",
-    "text": "Related papers\n\nI. W. Harry, B. Allen and B. S. Sathyaprakash, A stochastic template placement algorithm for gravitational wave data analysis.\nA standard reference for stochastic template placement.\nS. Roy, A. S. Sengupta and N. Thakor, Hybrid geometric-random template placement algorithm for gravitational wave searches from compact binary coalescences.\nOur earlier work combining geometric and stochastic placement.",
-    "crumbs": [
-      "Home",
-      "Earlier notes",
-      "2. Low-discrepancy template banks — 12 Sep 2026"
-    ]
-  },
-  {
-    "objectID": "posts/fast-bayesian-inference/index.html",
-    "href": "posts/fast-bayesian-inference/index.html",
-    "title": "Making Bayesian gravitational-wave inference faster",
-    "section": "",
-    "text": "Bayesian parameter estimation for gravitational-wave signals repeatedly evaluates a likelihood over a high-dimensional parameter space. For compact binaries, the expensive part is usually not the statistical formalism itself but the repeated evaluation of waveform-dependent frequency-domain inner products.\nA large fraction of this work is redundant.\nNearby waveforms are strongly correlated, and the quantities entering the likelihood vary much more smoothly across frequency than the raw waveform phase might suggest. Fast inference methods exploit this structure rather than evaluating every likelihood on the full native frequency grid.\nSeveral complementary strategies are possible. Relative binning represents the ratio between nearby waveforms using a much coarser frequency grid. Meshfree methods interpolate quantities entering the likelihood across intrinsic parameter space. Adaptive grids place frequency samples according to the local variation of the waveform rather than at every Fourier frequency.\nThese methods are particularly important for next-generation detectors. Lowering the starting frequency from tens of hertz to a few hertz greatly increases the signal duration and the number of Fourier samples. A method that is inexpensive for a current-detector binary-neutron-star signal can otherwise become prohibitively costly.\nThe aim is therefore not to approximate the posterior after the fact, but to reorganize the likelihood calculation so that the expensive information is computed once and reused efficiently throughout the inference.",
-    "crumbs": [
-      "Home",
-      "Earlier notes",
-      "3. Fast Bayesian inference — 5 Sep 2026"
-    ]
-  },
-  {
-    "objectID": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
-    "href": "posts/fast-bayesian-inference/index.html#papers-from-our-work-on-fast-inference",
-    "title": "Making Bayesian gravitational-wave inference faster",
-    "section": "Papers from our work on fast inference",
-    "text": "Papers from our work on fast inference\n\nL. Pathak, A. Reza and A. S. Sengupta, Fast likelihood evaluation using meshfree approximations for reconstructing compact binary sources.\nThe original meshfree likelihood construction.\nL. Pathak, S. Munishwar, A. Reza and A. S. Sengupta, Prompt sky localization of compact binary sources using a meshfree approximation.\nExtension to coherent network inference and rapid sky localization.\nA. Sharma, A. S. Sengupta and S. Mukherjee, Accelerated parameter estimation of supermassive black hole binaries in LISA using a meshfree approximation.\nExtension of the meshfree approach to LISA.\nA. Sharma, L. Pathak, S. Roy and A. S. Sengupta, Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation.\nExtension to richer compact-binary waveform structure, including higher modes.",
-    "crumbs": [
-      "Home",
-      "Earlier notes",
-      "3. Fast Bayesian inference — 5 Sep 2026"
-    ]
-  },
-  {
-    "objectID": "students.html",
-    "href": "students.html",
-    "title": "Students",
-    "section": "",
-    "text": "Divya Tahelyani\nVishnuprathap K. P.\nNandini Nair\nAayushi Kotecha\nRavi Kesharwani\n\n\n\nSoumen Roy\nAmit Reza\nLalit Pathak\nAbhishek Sharma\n\n\n\n\n\n\n\n\n\nPhD thesis submitted, August 2026 · SRF, IIT Gandhinagar\nAcademic background. MSc, Charotar University of Science and Technology.\nDivya joined the PhD programme at IIT Gandhinagar in 2022 and submitted her doctoral thesis in August 2026. She is currently continuing at IIT Gandhinagar as a Senior Research Fellow.\nHer research focuses on gravitational-wave astrophysics, including multiband observations, decihertz gravitational-wave astronomy, and the use of gravitational waves to probe dark-matter environments.\nRecent work includes:\n\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\nProbing dark matter halo profiles with multiband observations of gravitational waves\n\nLinkedIn\n\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2025–present\nAcademic background. B.Tech. in Engineering Physics, NIT Calicut.\nVishnuprathap joined the PhD programme in Physics at IIT Gandhinagar in 2025. He completed his B.Tech. in Engineering Physics from NIT Calicut.\nHis doctoral research is in gravitational-wave astronomy.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, University of Delhi.\nNandini joined the PhD programme in August 2026 after completing her MSc in Physics from the University of Delhi.\nHer doctoral research is in gravitational-wave physics.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, Savitribai Phule Pune University; recipient of the INSPIRE Scholarship.\nAayushi joined the PhD programme in August 2026. She completed her MSc in Physics from Savitribai Phule Pune University and was a recipient of the INSPIRE Scholarship.\nHer doctoral research is in gravitational-wave physics.\nLinkedIn\n\n\n\n\n\n\n\nContinuing Doctoral Programme (CDP) candidate, IIT Gandhinagar, 2026–present\nAcademic background. Studied at VIIT Pune, 2011–2015.\nRavi is a Scientific/Technical Officer at IUCAA and works with the LIGO-India instrumentation programme. He is also a member of the LIGO Scientific Collaboration through IUCAA.\nBefore joining the LIGO instrumentation effort, Ravi worked on the Solar Ultraviolet Imaging Telescope (SUIT) aboard the Aditya-L1 mission, with a particular background in electro-optics and scientific instrumentation.\nHe joined the Continuing Doctoral Programme (CDP) at IIT Gandhinagar in January 2026. His doctoral work connects his experience in gravitational-wave instrumentation with gravitational-wave physics.\nLinkedIn\n\n\n\n\n\n\n\n\n\nPhD in Physics, IIT Gandhinagar, 2014–2020\nAcademic background. MSc, University of Calcutta.\nSoumen’s doctoral research at IIT Gandhinagar focused on gravitational-wave searches, template-bank construction, and the physics of compact-binary inspirals.\nAfter completing his PhD, he was a Postdoctoral Research Fellow at Nikhef, Amsterdam, from December 2020 to August 2024. Since November 2024 he has been a Postdoctoral Researcher at UCLouvain, Belgium.\nPost-IITGN research. His subsequent work has included compact-binary environments, tests of gravity with eccentric systems, and environmental effects such as line-of-sight acceleration.\nRepresentative work from his time at IIT Gandhinagar:\n\nUnveiling the spectrum of inspiralling binary black holes\nEffectual template banks for upcoming compact-binary searches in Advanced LIGO and Virgo data\nHybrid geometric-random template-placement algorithm for gravitational-wave searches\n\nSelected later work:\n\nCompact binary coalescences in dense gaseous environments can pose as ones in vacuum\nTesting modified gravity with the eccentric neutron star-black hole merger GW200105\nLine-of-sight acceleration in compact binaries with higher harmonics and eccentricity\n\nLinkedIn\n\n\n\n\n\n\n\nPhD in Computational Science, IIT Gandhinagar, 2014–2021\nAcademic background. M.Tech., MANIT Bhopal.\nAmit worked on computational methods for gravitational-wave searches, including dimensionality reduction and efficient reconstruction of matched-filter statistics.\nHe subsequently held a postdoctoral position at Nikhef and is currently a Scientist at the Austrian Academy of Sciences in Graz.\nPost-IITGN research. Amit has moved primarily into machine learning for astrophysics and space science. His recent work includes neural-network models for exoplanet atmospheres and climate, machine-learning classification of space-debris light curves, and graph neural networks, alongside continued connections with gravitational-wave data analysis.\nCurrent research profile\nRepresentative work:\n\nRandom projections in gravitational-wave searches from compact binaries II\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2018–2024\nAcademic background. Department of Physics and Astrophysics, University of Delhi.\nLalit’s doctoral work developed fast meshfree methods for gravitational-wave parameter estimation and source localization. This included fast likelihood evaluation, network sky localization, and interpolation of numerical-relativity surrogate waveforms.\nAfter IIT Gandhinagar he was at TIFR Mumbai during 2024–2025 and is currently at IUCAA, Pune.\nPost-IITGN research. Lalit has continued work on rapid gravitational-wave inference while also moving into compact-binary astrophysics. One recent direction concerns environmental effects on observed signals, including line-of-sight acceleration from a possible tertiary companion and its degeneracy with orbital eccentricity.\nSee On the Presence of a Tertiary Compact Object in GW190814.\nRepresentative work:\n\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\nPrompt sky localization of compact binary sources using a meshfree approximation\nFast and faithful interpolation of numerical-relativity surrogate waveforms using a meshfree approximation\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2021–2025\nAcademic background. Jamia Millia Islamia; university gold medallist.\nAbhishek worked on gravitational-wave inference across ground-based, space-based, and decihertz detectors. His doctoral work included template banks for non-standard compact-binary signals, accelerated parameter estimation for LISA sources, and multiband gravitational-wave astronomy.\nHe is currently a postdoctoral researcher at IUCAA, Pune.\nPost-IITGN research. Abhishek has continued developing fast gravitational-wave inference methods while extending his work toward space-based, decihertz, and multiband gravitational-wave astronomy.\nRecent examples include Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation and IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band.\nRepresentative work:\n\nTemplate bank to search for exotic gravitational-wave signals from astrophysical compact binaries\nAccelerated parameter estimation of supermassive black-hole binaries in LISA using a meshfree approximation\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\n\nLinkedIn"
-  },
-  {
-    "objectID": "students.html#current-and-recently-submitted-phd-students",
-    "href": "students.html#current-and-recently-submitted-phd-students",
-    "title": "Students",
-    "section": "",
-    "text": "PhD thesis submitted, August 2026 · SRF, IIT Gandhinagar\nAcademic background. MSc, Charotar University of Science and Technology.\nDivya joined the PhD programme at IIT Gandhinagar in 2022 and submitted her doctoral thesis in August 2026. She is currently continuing at IIT Gandhinagar as a Senior Research Fellow.\nHer research focuses on gravitational-wave astrophysics, including multiband observations, decihertz gravitational-wave astronomy, and the use of gravitational waves to probe dark-matter environments.\nRecent work includes:\n\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\nProbing dark matter halo profiles with multiband observations of gravitational waves\n\nLinkedIn\n\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2025–present\nAcademic background. B.Tech. in Engineering Physics, NIT Calicut.\nVishnuprathap joined the PhD programme in Physics at IIT Gandhinagar in 2025. He completed his B.Tech. in Engineering Physics from NIT Calicut.\nHis doctoral research is in gravitational-wave astronomy.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, University of Delhi.\nNandini joined the PhD programme in August 2026 after completing her MSc in Physics from the University of Delhi.\nHer doctoral research is in gravitational-wave physics.\n\n\n\n\n\n\nPhD student, IIT Gandhinagar, 2026–present\nAcademic background. MSc in Physics, Savitribai Phule Pune University; recipient of the INSPIRE Scholarship.\nAayushi joined the PhD programme in August 2026. She completed her MSc in Physics from Savitribai Phule Pune University and was a recipient of the INSPIRE Scholarship.\nHer doctoral research is in gravitational-wave physics.\nLinkedIn\n\n\n\n\n\n\n\nContinuing Doctoral Programme (CDP) candidate, IIT Gandhinagar, 2026–present\nAcademic background. Studied at VIIT Pune, 2011–2015.\nRavi is a Scientific/Technical Officer at IUCAA and works with the LIGO-India instrumentation programme. He is also a member of the LIGO Scientific Collaboration through IUCAA.\nBefore joining the LIGO instrumentation effort, Ravi worked on the Solar Ultraviolet Imaging Telescope (SUIT) aboard the Aditya-L1 mission, with a particular background in electro-optics and scientific instrumentation.\nHe joined the Continuing Doctoral Programme (CDP) at IIT Gandhinagar in January 2026. His doctoral work connects his experience in gravitational-wave instrumentation with gravitational-wave physics.\nLinkedIn"
-  },
-  {
-    "objectID": "students.html#former-phd-students",
-    "href": "students.html#former-phd-students",
-    "title": "Students",
-    "section": "",
-    "text": "PhD in Physics, IIT Gandhinagar, 2014–2020\nAcademic background. MSc, University of Calcutta.\nSoumen’s doctoral research at IIT Gandhinagar focused on gravitational-wave searches, template-bank construction, and the physics of compact-binary inspirals.\nAfter completing his PhD, he was a Postdoctoral Research Fellow at Nikhef, Amsterdam, from December 2020 to August 2024. Since November 2024 he has been a Postdoctoral Researcher at UCLouvain, Belgium.\nPost-IITGN research. His subsequent work has included compact-binary environments, tests of gravity with eccentric systems, and environmental effects such as line-of-sight acceleration.\nRepresentative work from his time at IIT Gandhinagar:\n\nUnveiling the spectrum of inspiralling binary black holes\nEffectual template banks for upcoming compact-binary searches in Advanced LIGO and Virgo data\nHybrid geometric-random template-placement algorithm for gravitational-wave searches\n\nSelected later work:\n\nCompact binary coalescences in dense gaseous environments can pose as ones in vacuum\nTesting modified gravity with the eccentric neutron star-black hole merger GW200105\nLine-of-sight acceleration in compact binaries with higher harmonics and eccentricity\n\nLinkedIn\n\n\n\n\n\n\n\nPhD in Computational Science, IIT Gandhinagar, 2014–2021\nAcademic background. M.Tech., MANIT Bhopal.\nAmit worked on computational methods for gravitational-wave searches, including dimensionality reduction and efficient reconstruction of matched-filter statistics.\nHe subsequently held a postdoctoral position at Nikhef and is currently a Scientist at the Austrian Academy of Sciences in Graz.\nPost-IITGN research. Amit has moved primarily into machine learning for astrophysics and space science. His recent work includes neural-network models for exoplanet atmospheres and climate, machine-learning classification of space-debris light curves, and graph neural networks, alongside continued connections with gravitational-wave data analysis.\nCurrent research profile\nRepresentative work:\n\nRandom projections in gravitational-wave searches from compact binaries II\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2018–2024\nAcademic background. Department of Physics and Astrophysics, University of Delhi.\nLalit’s doctoral work developed fast meshfree methods for gravitational-wave parameter estimation and source localization. This included fast likelihood evaluation, network sky localization, and interpolation of numerical-relativity surrogate waveforms.\nAfter IIT Gandhinagar he was at TIFR Mumbai during 2024–2025 and is currently at IUCAA, Pune.\nPost-IITGN research. Lalit has continued work on rapid gravitational-wave inference while also moving into compact-binary astrophysics. One recent direction concerns environmental effects on observed signals, including line-of-sight acceleration from a possible tertiary companion and its degeneracy with orbital eccentricity.\nSee On the Presence of a Tertiary Compact Object in GW190814.\nRepresentative work:\n\nFast likelihood evaluation using meshfree approximations for reconstructing compact binary sources\nPrompt sky localization of compact binary sources using a meshfree approximation\nFast and faithful interpolation of numerical-relativity surrogate waveforms using a meshfree approximation\n\nGoogle Scholar\n\n\n\n\n\n\n\nPhD, IIT Gandhinagar, 2021–2025\nAcademic background. Jamia Millia Islamia; university gold medallist.\nAbhishek worked on gravitational-wave inference across ground-based, space-based, and decihertz detectors. His doctoral work included template banks for non-standard compact-binary signals, accelerated parameter estimation for LISA sources, and multiband gravitational-wave astronomy.\nHe is currently a postdoctoral researcher at IUCAA, Pune.\nPost-IITGN research. Abhishek has continued developing fast gravitational-wave inference methods while extending his work toward space-based, decihertz, and multiband gravitational-wave astronomy.\nRecent examples include Rapid parameter estimation with the full symphony of compact binary mergers using meshfree approximation and IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band.\nRepresentative work:\n\nTemplate bank to search for exotic gravitational-wave signals from astrophysical compact binaries\nAccelerated parameter estimation of supermassive black-hole binaries in LISA using a meshfree approximation\nIndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band\n\nLinkedIn"
   }
 ]
