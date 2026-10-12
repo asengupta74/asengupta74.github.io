@@ -8,7 +8,7 @@
 
 1. **[Stochastic template banks for GW searches using low-discrepancy sequences](https://inspirehep.net/literature/3182290)**  
    Tarun Kumar, **Anand S. Sengupta**  
-   [arXiv:2607.18633](https://arxiv.org/abs/2607.18633)  
+   [arXiv:2607.18633](https://arxiv.org/abs/2607.18633) · [DOI](https://doi.org/10.1088/1361-6382/aeb05d)  
 
 1. **[IndIGO-D: Probing Compact Binary Coalescences in the Decihertz GW Band](https://inspirehep.net/literature/3103188)**  
    Abhishek Sharma, Divya Tahelyani, **Anand S. Sengupta**, Sanjit Mitra  
